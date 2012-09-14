@@ -60,7 +60,7 @@
 		 </Polygon>
 		</Placemark>
 
-        <Placemark>   
+        <Placemark>
             <name><![CDATA[WWI 1]]></name>
             <description><![CDATA[
               1
@@ -71,34 +71,34 @@
 				  <href></href>
 			   </Icon>
 			</IconStyle>
-            <Point>      
+            <Point>
                 <extrude>1</extrude>
 		        <altitudeMode>relativeToGround</altitudeMode>
-                <coordinates>-82.9926088333333,40.7105401666667,0</coordinates>    
+                <coordinates>-82.9926088333333,40.7105401666667,0</coordinates>
             </Point>
         </Placemark>
 
-        <Placemark>   
+        <Placemark>
             <name><![CDATA[WWI 2]]></name>
             <description><![CDATA[
               2
             ]]></description>
-            <Point>      
+            <Point>
                 <extrude>1</extrude>
 		        <altitudeMode>relativeToGround</altitudeMode>
-                <coordinates>-82.9972436666667,40.70649,0</coordinates>    
+                <coordinates>-82.9972436666667,40.70649,0</coordinates>
             </Point>
         </Placemark>
 
-        <Placemark>   
+        <Placemark>
             <name><![CDATA[WWI 3]]></name>
             <description><![CDATA[
               3
             ]]></description>
-            <Point>      
+            <Point>
                 <extrude>1</extrude>
 		        <altitudeMode>relativeToGround</altitudeMode>
-                <coordinates>-82.9895081666667,40.7365838333333,0</coordinates>    
+                <coordinates>-82.9895081666667,40.7365838333333,0</coordinates>
             </Point>
         </Placemark>
    </Document>
