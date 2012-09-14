@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+		<name>El Dorado canyon POW-MIA</name>
+		<description>Description</description>
+
+		<Placemark id="el-dorado-canyon">
+		 <name>El Dorado Canyon</name>
+		 <visibility>1</visibility>
+		 <open>0</open>
+		 <styleUrl>#style</styleUrl>
+		 <Polygon>
+			<extrude>0</extrude>
+			<tessellate>1</tessellate>
+			<altitudeMode>clampToGround</altitudeMode>
+			<outerBoundaryIs>
+			   <LinearRing>
+				  <coordinates>
+					 -78.365673309192,32.6628960911185
+				     -78.365591334179,32.6560111958534
+					 -78.364375539124,32.6559975333512
+					 -78.364402864128,32.6483204644173
+					 -78.359539767727,32.6483955662698
+					 -78.359567092732,32.64422573708
+					 -78.356452545151,32.6442223004997
+					 -78.356329582632,32.6403188481927
+					 -78.355482675135,32.6384234484285
+					 -78.354444492608,32.6376550793648
+					 -78.354198567569,32.6375697515905
+					 -78.354198567569,32.6375560890883
+					 -78.354348855093,32.6375355534256
+					 -78.352818906307,32.6375834140927
+					 -78.349636046216,32.6375697515905
+					 -78.349677033722,32.6339155770838
+					 -78.317438473925,32.6339155770838
+					 -78.314392238855,32.6339600011706
+					 -78.314187301323,32.6484194546938
+					 -78.334391040727,32.6484843306243
+					 -78.33440470323,32.6627594660968
+					 -78.335292598233,32.6629438679665
+					 -78.336767980829,32.6629097536206
+					 -78.359348576516,32.6629985179752
+					 -78.360673587769,32.6628994438797
+					 -78.365673309192,32.6628960911185
+				  </coordinates>
+			   </LinearRing>
+			</outerBoundaryIs>
+		 </Polygon>
+		</Placemark>
+
+        <Placemark>   
+            <name><![CDATA[El Dorado canyon 1]]></name>
+            <description><![CDATA[
+              1
+            ]]></description>
+            <Point>      
+                <extrude>1</extrude>
+		        <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>-78.9926088333333,32.7105401666667,0</coordinates>    
+            </Point>
+        </Placemark>
+
+        <Placemark>   
+            <name><![CDATA[El Dorado canyon 2]]></name>
+            <description><![CDATA[
+              2
+            ]]></description>
+            <Point>      
+                <extrude>1</extrude>
+		        <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>-78.9972436666667,32.70649,0</coordinates>    
+            </Point>
+        </Placemark>
+
+        <Placemark>   
+            <name><![CDATA[El Dorado canyon 3]]></name>
+            <description><![CDATA[
+              3
+            ]]></description>
+            <Point>      
+                <extrude>1</extrude>
+		        <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>-78.9895081666667,32.7365838333333,0</coordinates>    
+            </Point>
+        </Placemark>
+   </Document>
+</kml>

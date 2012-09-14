@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+		<name>Iraqi Freedom POW-MIA</name>
+		<description>Description</description>
+
+	    <Placemark id="iraqi-freedom">
+		 <name>Iraqi Freedom</name>
+		 <visibility>1</visibility>
+		 <open>0</open>
+		 <styleUrl>#style</styleUrl>
+		 <Polygon>
+			<extrude>0</extrude>
+			<tessellate>1</tessellate>
+			<altitudeMode>clampToGround</altitudeMode>
+			<outerBoundaryIs>
+			   <LinearRing>
+				  <coordinates>
+					 -73.365673309192,40.6628960911185
+				     -73.365591334179,40.6560111958534
+					 -73.364375539124,40.6559975333512
+					 -73.364402864128,40.6483204644173
+					 -73.359539767727,40.6483955662698
+					 -73.359567092732,40.64422573708
+					 -73.356452545151,40.6442223004997
+					 -73.356329582632,40.6403188481927
+					 -73.355482675135,40.6384234484285
+					 -73.354444492608,40.6376550793648
+					 -73.354198567569,40.6375697515905
+					 -73.354198567569,40.6375560890883
+					 -73.354348855093,40.6375355534256
+					 -73.352818906307,40.6375834140927
+					 -73.349636046216,40.6375697515905
+					 -73.349677033722,40.6339155770838
+					 -73.317438473925,40.6339155770838
+					 -73.314392238855,40.6339600011706
+					 -73.314187301323,40.6484194546938
+					 -73.334391040727,40.6484843306243
+					 -73.33440470323,40.6627594660968
+					 -73.335292598233,40.6629438679665
+					 -73.336767980829,40.6629097536206
+					 -73.359348576516,40.6629985179752
+					 -73.360673587769,40.6628994438797
+					 -73.365673309192,40.6628960911185
+				  </coordinates>
+			   </LinearRing>
+			</outerBoundaryIs>
+		 </Polygon>
+		</Placemark>
+
+        <Placemark>   
+            <name><![CDATA[Iraqi freedom 1]]></name>
+            <description><![CDATA[
+              1
+            ]]></description>
+            <Point>      
+                <extrude>1</extrude>
+		        <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>-73.9926088333333,40.7105401666667,0</coordinates>    
+            </Point>
+        </Placemark>
+
+        <Placemark>   
+            <name><![CDATA[Iraqi freedom 2]]></name>
+            <description><![CDATA[
+              2
+            ]]></description>
+            <Point>      
+                <extrude>1</extrude>
+		        <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>-73.9972436666667,40.70649,0</coordinates>    
+            </Point>
+        </Placemark>
+
+        <Placemark>   
+            <name><![CDATA[Iraqi freedom 3]]></name>
+            <description><![CDATA[
+              3
+            ]]></description>
+            <Point>      
+                <extrude>1</extrude>
+		        <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>-73.9895081666667,40.7365838333333,0</coordinates>    
+            </Point>
+        </Placemark>
+   </Document>
+</kml>

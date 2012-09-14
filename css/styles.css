@@ -1,0 +1,16 @@
+@media print { .gmnoprint { display:none }}@media screen { .gmnoscreen { display:none }}
+html, body { height: 100%; margin: 0; padding: 0; font-family: 'Emblema One' }
+#map { height: 85%; }
+@media print { html, body { height: auto; font-family: 'Emblema One' }#map { height: 100%; }}
+#header { text-align: right; height: 10%; width: 100%; background-color: #000; -webkit-box-shadow: 0 8px 6px -6px #fff; -moz-box-shadow: 0 8px 6px -6px #fff; box-shadow: 0 8px 6px -6px #fff; }
+#pow-mia-logo { text-align: left; padding-left: 2%; position: absolute; z-index: 999 }
+#navigation { color: #fff; padding-right: 2%; padding-top: 1.5em; float: right; text-align: right; position: relative; z-index: 9999 }
+#navigation ul { table-layout: fixed; list-style-type: none; margin: auto }
+#navigation ul a { color: #fff; padding-right: 15px; padding-left: 15px }
+#navigation ul a:hover { text-shadow: 1px 2px 2px #909090; }
+#navigation li { float: left }
+#footer { font-size: 0.7em; color: #fff }
+#footer ul { padding-right: 1em; padding-top: 1.0em; list-style-type: none; margin: auto }
+#footer ul a { text-decoration: none; padding-right: 15px; padding-left: 15px }
+#footer li { float: right }
+#footer { position: fixed; height: 5%; width: 100%; background-color: #000; text-align: right }

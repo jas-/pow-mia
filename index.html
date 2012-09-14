@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>POW-MIA - You are not forgotten</title>
+        <meta content="initial-scale=1.0, user-scalable=no" name="viewport">
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" media="screen, projection" href="css/styles.css">
+        <link rel="stylesheet" type="text/css" media="screen, projection" href="http://fonts.googleapis.com/css?family=Stoke|Emblema+One">
+        <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+        <script type="text/javascript" src="js/kml2map.js"></script>
+    </head>
+    <body onload="initialize()">
+        <div id="header">
+            <div id="pow-mia-logo">
+                <a href="index.html"><img src="images/pow-mia-200x279.png" title="POW MIA - You are not forgotten" alt="POW MIA - You are not forgotten" /></a>
+            </div>
+            <div id="navigation">
+                <ul>
+                    <li><a id="wwi" title="WWI - POW & MIA soliders from the world war one conflict" onclick="loader(this.id); title(this.title)" onmouseover="spoof(this)">WWI</a></li>
+                    <li><a id="wwii" title="WWII - POW & MIA soliders from the world war two conflict" onclick="loader(this.id); title(this.title)" onmouseover="spoof(this)">WWII</a></li>
+                    <li><a id="korea" title="WWI - POW & MIA soliders from the Korean war one conflict" onclick="loader(this.id); title(this.title)" onmouseover="spoof(this)">Korea</a></li>
+                    <li><a id="vietnam" title="WWI - POW & MIA soliders from the Vietnam conflict" onclick="loader(this.id); title(this.alt)" onmouseover="spoof(this)">Vietnam</a></li>
+                    <li><a id="el-dorado-canyon" title="WWI - POW & MIA soliders from the El Dorado conflict" onclick="loader(this.id); title(this.title)" onmouseover="spoof(this)">El Dorado Canyon</a></li>
+                    <li><a id="cold-war" title="WWI - POW & MIA soliders from the cold war" onclick="loader(this.id); title(this.title)" onmouseover="spoof(this)">Cold War</a></li>
+                    <li><a id="desert-storm" title="WWI - POW & MIA soliders from the desert storm conflict" onclick="loader(this.id); title(this.title)" onmouseover="spoof(this)">Desert Storm</a></li>
+                    <li><a id="iraqi-freedom" title="WWI - POW & MIA soliders from the Iraqi freedom conflict" onclick="loader(this.id); title(this.title)" onmouseover="spoof(this)">Iraqi Freedom</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="map" style="overflow: hidden;"></div>
+        <div id="footer">
+            <ul>
+                <li>2012 &copy <a onclick="document.location = 'https://github.com/jas-'" target="_blank">Jason Gerfen</a></li>
+            </ul>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+		<name>Korea POW-MIA</name>
+		<description>Description</description>
+
+	    <Placemark id="korea">
+		 <name>Korea</name>
+		 <visibility>1</visibility>
+		 <open>0</open>
+		 <styleUrl>#style</styleUrl>
+		 <Polygon>
+			<extrude>0</extrude>
+			<tessellate>1</tessellate>
+			<altitudeMode>clampToGround</altitudeMode>
+			<outerBoundaryIs>
+			   <LinearRing>
+				  <coordinates>
+					 -96.365673309192,30.6628960911185
+				     -96.365591334179,30.6560111958534
+					 -96.364375539124,30.6559975333512
+					 -96.364402864128,30.6483204644173
+					 -96.359539767727,30.6483955662698
+					 -96.359567092732,30.64422573708
+					 -96.356452545151,30.6442223004997
+					 -96.356329582632,30.6403188481927
+					 -96.355482675135,30.6384234484285
+					 -96.354444492608,30.6376550793648
+					 -96.354198567569,30.6375697515905
+					 -96.354198567569,30.6375560890883
+					 -96.354348855093,30.6375355534256
+					 -96.352818906307,30.6375834140927
+					 -96.349636046216,30.6375697515905
+					 -96.349677033722,30.6339155770838
+					 -96.317438473925,30.6339155770838
+					 -96.314392238855,30.6339600011706
+					 -96.314187301323,30.6484194546938
+					 -96.334391040727,30.6484843306243
+					 -96.33440470323,30.6627594660968
+					 -96.335292598233,30.6629438679665
+					 -96.336767980829,30.6629097536206
+					 -96.359348576516,30.6629985179752
+					 -96.360673587769,30.6628994438797
+					 -96.365673309192,30.6628960911185
+				  </coordinates>
+			   </LinearRing>
+			</outerBoundaryIs>
+		 </Polygon>
+		</Placemark>
+
+        <Placemark>   
+            <name><![CDATA[Korea 1]]></name>
+            <description><![CDATA[
+              1
+            ]]></description>
+            <Point>      
+                <extrude>1</extrude>
+		        <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>-96.9926088333333,30.7105401666667,0</coordinates>    
+            </Point>
+        </Placemark>
+
+        <Placemark>   
+            <name><![CDATA[Korea 2]]></name>
+            <description><![CDATA[
+              2
+            ]]></description>
+            <Point>      
+                <extrude>1</extrude>
+		        <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>-96.9972436666667,30.70649,0</coordinates>    
+            </Point>
+        </Placemark>
+
+        <Placemark>   
+            <name><![CDATA[Korea 3]]></name>
+            <description><![CDATA[
+              3
+            ]]></description>
+            <Point>      
+                <extrude>1</extrude>
+		        <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>-96.9895081666667,30.7365838333333,0</coordinates>    
+            </Point>
+        </Placemark>
+   </Document>
+</kml>

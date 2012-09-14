@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+		<name>Cold war POW-MIA</name>
+		<description>Description</description>
+
+		<Placemark id="wwi">
+		 <name>WWI</name>
+		 <visibility>1</visibility>
+		 <open>0</open>
+		 <styleUrl>#style</styleUrl>
+		 <Polygon>
+			<extrude>0</extrude>
+			<tessellate>1</tessellate>
+			<altitudeMode>clampToGround</altitudeMode>
+			<outerBoundaryIs>
+			   <LinearRing>
+				  <coordinates>
+					 -76.365673309192,44.6628960911185
+				     -76.365591334179,44.6560111958534
+					 -76.364375539124,44.6559975333512
+					 -76.364402864128,44.6483204644173
+					 -76.359539767727,44.6483955662698
+					 -76.359567092732,44.64422573708
+					 -76.356452545151,44.6442223004997
+					 -76.356329582632,44.6403188481927
+					 -76.355482675135,44.6384234484285
+					 -76.354444492608,44.6376550793648
+					 -76.354198567569,44.6375697515905
+					 -76.354198567569,44.6375560890883
+					 -76.354348855093,44.6375355534256
+					 -76.352818906307,44.6375834140927
+					 -76.349636046216,44.6375697515905
+					 -76.349677033722,44.6339155770838
+					 -76.317438473925,44.6339155770838
+					 -76.314392238855,44.6339600011706
+					 -76.314187301323,44.6484194546938
+					 -76.334391040727,44.6484843306243
+					 -76.33440470323,44.6627594660968
+					 -76.335292598233,44.6629438679665
+					 -76.336767980829,44.6629097536206
+					 -76.359348576516,44.6629985179752
+					 -76.360673587769,44.6628994438797
+					 -76.365673309192,44.6628960911185
+				  </coordinates>
+			   </LinearRing>
+			</outerBoundaryIs>
+		 </Polygon>
+		</Placemark>
+
+        <Placemark>
+            <name><![CDATA[Cold war 1]]></name>
+            <description><![CDATA[
+              1
+            ]]></description>
+            <Point>      
+                <extrude>1</extrude>
+		        <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>-76.9926088333333,44.7105401666667,0</coordinates>    
+            </Point>
+        </Placemark>
+
+        <Placemark>   
+            <name><![CDATA[Cold war 2]]></name>
+            <description><![CDATA[
+              2
+            ]]></description>
+            <Point>      
+                <extrude>1</extrude>
+		        <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>-76.9972436666667,44.70649,0</coordinates>    
+            </Point>
+        </Placemark>
+
+        <Placemark>   
+            <name><![CDATA[Cold war 3]]></name>
+            <description><![CDATA[
+              3
+            ]]></description>
+            <Point>      
+                <extrude>1</extrude>
+		        <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>-76.9895081666667,44.7365838333333,0</coordinates>    
+            </Point>
+        </Placemark>
+   </Document>
+</kml>

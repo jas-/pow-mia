@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+		<name>WWII POW-MIA</name>
+		<description>Description</description>
+
+		<Placemark id="wwii">
+		 <name>WWII</name>
+		 <visibility>1</visibility>
+		 <open>0</open>
+		 <styleUrl>#style</styleUrl>
+		 <Polygon>
+			<extrude>0</extrude>
+			<tessellate>1</tessellate>
+			<altitudeMode>clampToGround</altitudeMode>
+			<outerBoundaryIs>
+			   <LinearRing>
+				  <coordinates>
+					 -92.365673309192,30.6628960911185
+				     -92.365591334179,30.6560111958534
+					 -92.364375539124,30.6559975333512
+					 -92.364402864128,30.6483204644173
+					 -92.359539767727,30.6483955662698
+					 -92.359567092732,30.64422573708
+					 -92.356452545151,30.6442223004997
+					 -92.356329582632,30.6403188481927
+					 -92.355482675135,30.6384234484285
+					 -92.354444492608,30.6376550793648
+					 -92.354198567569,30.6375697515905
+					 -92.354198567569,30.6375560890883
+					 -92.354348855093,30.6375355534256
+					 -92.352818906307,30.6375834140927
+					 -92.349636046216,30.6375697515905
+					 -92.349677033722,30.6339155770838
+					 -92.317438473925,30.6339155770838
+					 -92.314392238855,30.6339600011706
+					 -92.314187301323,30.6484194546938
+					 -92.334391040727,30.6484843306243
+					 -92.33440470323,30.6627594660968
+					 -92.335292598233,30.6629438679665
+					 -92.336767980829,30.6629097536206
+					 -92.359348576516,30.6629985179752
+					 -92.360673587769,30.6628994438797
+					 -92.365673309192,30.6628960911185
+				  </coordinates>
+			   </LinearRing>
+			</outerBoundaryIs>
+		 </Polygon>
+		</Placemark>
+
+        <Placemark>   
+            <name><![CDATA[WWII 1]]></name>
+            <description><![CDATA[
+              1
+            ]]></description>
+            <Point>      
+                <extrude>1</extrude>
+		        <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>-92.9926088333333,30.7105401666667,0</coordinates>    
+            </Point>
+        </Placemark>
+
+        <Placemark>   
+            <name><![CDATA[WWII 2]]></name>
+            <description><![CDATA[
+              2
+            ]]></description>
+            <Point>      
+                <extrude>1</extrude>
+		        <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>-92.9972436666667,30.70649,0</coordinates>    
+            </Point>
+        </Placemark>
+
+        <Placemark>   
+            <name><![CDATA[WWII 3]]></name>
+            <description><![CDATA[
+              3
+            ]]></description>
+            <Point>      
+                <extrude>1</extrude>
+		        <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>-92.9895081666667,30.7365838333333,0</coordinates>    
+            </Point>
+        </Placemark>
+   </Document>
+</kml>

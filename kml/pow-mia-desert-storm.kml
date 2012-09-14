@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+		<name>Desert Storm POW-MIA</name>
+		<description>Description</description>
+
+		<Placemark id="desert-storm">
+		 <name>Desert Storm</name>
+		 <visibility>1</visibility>
+		 <open>0</open>
+		 <styleUrl>#style</styleUrl>
+		 <Polygon>
+			<extrude>0</extrude>
+			<tessellate>1</tessellate>
+			<altitudeMode>clampToGround</altitudeMode>
+			<outerBoundaryIs>
+			   <LinearRing>
+				  <coordinates>
+					 -79.365673309192,43.6628960911185
+				     -79.365591334179,43.6560111958534
+					 -79.364375539124,43.6559975333512
+					 -79.364402864128,43.6483204644173
+					 -79.359539767727,43.6483955662698
+					 -79.359567092732,43.64422573708
+					 -79.356452545151,43.6442223004997
+					 -79.356329582632,43.6403188481927
+					 -79.355482675135,43.6384234484285
+					 -79.354444492608,43.6376550793648
+					 -79.354198567569,43.6375697515905
+					 -79.354198567569,43.6375560890883
+					 -79.354348855093,43.6375355534256
+					 -79.352818906307,43.6375834140927
+					 -79.349636046216,43.6375697515905
+					 -79.349677033722,43.6339155770838
+					 -79.317438473925,43.6339155770838
+					 -79.314392238855,43.6339600011706
+					 -79.314187301323,43.6484194546938
+					 -79.334391040727,43.6484843306243
+					 -79.33440470323,43.6627594660968
+					 -79.335292598233,43.6629438679665
+					 -79.336767980829,43.6629097536206
+					 -79.359348576516,43.6629985179752
+					 -79.360673587769,43.6628994438797
+					 -79.365673309192,43.6628960911185
+				  </coordinates>
+			   </LinearRing>
+			</outerBoundaryIs>
+		 </Polygon>
+		</Placemark>
+
+        <Placemark>   
+            <name><![CDATA[Desert storm 1]]></name>
+            <description><![CDATA[
+              1
+            ]]></description>
+            <Point>      
+                <extrude>1</extrude>
+		        <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>-79.9926088333333,43.7105401666667,0</coordinates>    
+            </Point>
+        </Placemark>
+
+        <Placemark>   
+            <name><![CDATA[Desert storm 2]]></name>
+            <description><![CDATA[
+              2
+            ]]></description>
+            <Point>      
+                <extrude>1</extrude>
+		        <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>-79.9972436666667,43.70649,0</coordinates>    
+            </Point>
+        </Placemark>
+
+        <Placemark>   
+            <name><![CDATA[Desert storm 3]]></name>
+            <description><![CDATA[
+              3
+            ]]></description>
+            <Point>      
+                <extrude>1</extrude>
+		        <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>-79.9895081666667,43.7365838333333,0</coordinates>    
+            </Point>
+        </Placemark>
+   </Document>
+</kml>
