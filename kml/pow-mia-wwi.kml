@@ -4,23 +4,23 @@
 		<name>WWI POW-MIA</name>
 		<description>Description</description>
 
-		<Style id="style">
+		<Style id="style-1">
 			<LineStyle>
-			   <color>66000001</color>
+			   <color>50FFFFFF</color>
 			   <width>1</width>
 			</LineStyle>
 			<PolyStyle>
-			   <color>66ff6633</color>
+			   <color>50DCDCDC</color>
 			   <fill>1</fill>
 			   <outline>1</outline>
 			</PolyStyle>
 		</Style>
 
 		<Placemark id="wwi">
-		 <name>WWI</name>
+		 <name>WWI - Austria</name>
 		 <visibility>1</visibility>
 		 <open>0</open>
-		 <styleUrl>#style</styleUrl>
+		 <styleUrl>#style-1</styleUrl>
 		 <Polygon>
 			<extrude>0</extrude>
 			<tessellate>1</tessellate>
@@ -28,32 +28,67 @@
 			<outerBoundaryIs>
 			   <LinearRing>
 				  <coordinates>
-					 -82.365673309192,40.6628960911185
-				     -82.365591334179,40.6560111958534
-					 -82.364375539124,40.6559975333512
-					 -82.364402864128,40.6483204644173
-					 -82.359539767727,40.6483955662698
-					 -82.359567092732,40.64422573708
-					 -82.356452545151,40.6442223004997
-					 -82.356329582632,40.6403188481927
-					 -82.355482675135,40.6384234484285
-					 -82.354444492608,40.6376550793648
-					 -82.354198567569,40.6375697515905
-					 -82.354198567569,40.6375560890883
-					 -82.354348855093,40.6375355534256
-					 -82.352818906307,40.6375834140927
-					 -82.349636046216,40.6375697515905
-					 -82.349677033722,40.6339155770838
-					 -82.317438473925,40.6339155770838
-					 -82.314392238855,40.6339600011706
-					 -82.314187301323,40.6484194546938
-					 -82.334391040727,40.6484843306243
-					 -82.33440470323,40.6627594660968
-					 -82.335292598233,40.6629438679665
-					 -82.336767980829,40.6629097536206
-					 -82.359348576516,40.6629985179752
-					 -82.360673587769,40.6628994438797
-					 -82.365673309192,40.6628960911185
+					 16.5454102,48.8068635,0
+					 16.3037109,48.7344554,0
+					 15.9082031,48.8647148,0
+					 15.3588867,48.9802170,0
+					 15.0732422,49.0090508,0
+					 15.0073242,48.8068635,0
+					 14.7216797,48.6183852,0
+					 14.1284180,48.5893258,0
+					 13.9086914,48.7344554,0
+					 13.7548828,48.5311570,0
+					 13.4912109,48.6183852,0
+					 13.3813477,48.3124279,0
+					 12.8100586,48.0927572,0
+					 13.0297852,47.7393234,0
+					 13.0297852,47.4726629,0
+					 12.7661133,47.6357836,0
+					 12.3706055,47.7097615,0
+					 12.1948242,47.7245445,0
+					 12.1728516,47.5765257,0
+					 11.8652344,47.6209754,0
+					 11.5795898,47.5468716,0
+					 11.2280273,47.3537106,0
+					 10.8764648,47.5023590,0
+					 10.4809570,47.5617008,0
+					 10.4589844,47.4132203,0
+					 10.2172852,47.2494070,0
+					 10.1953125,47.3983492,0
+					 9.8437500,47.5765257,0
+					 9.5800781,47.4726629,0
+					 9.5361328,47.2643201,0
+					 9.4921875,47.0551541,0
+					 9.8657227,47.0252060,0
+					 10.0854492,46.8601910,0
+					 10.3930664,46.9952411,0
+					 10.4809570,46.8451644,0
+					 10.7006836,46.8601910,0
+					 11.0302734,46.7850160,0
+					 11.3598633,46.9802524,0
+					 11.6455078,46.9952411,0
+					 12.1948242,47.0551541,0
+					 12.2387695,46.8752134,0
+					 12.5024414,46.6795945,0
+					 13.2934570,46.5588603,0
+					 13.6450195,46.5135156,0
+					 14.5458984,46.4075640,0
+					 15.0292969,46.6192610,0
+					 15.6005859,46.6343507,0
+					 16.0400391,46.7248004,0
+					 16.1059570,46.8752134,0
+					 16.4794922,47.0102257,0
+					 16.4575195,47.1897125,0
+					 16.4135742,47.3685943,0
+					 16.7211914,47.5320382,0
+					 16.4575195,47.7097615,0
+					 17.0288086,47.6801829,0
+					 17.1166992,47.9163420,0
+					 17.0507813,48.1660854,0
+					 16.8310547,48.3854422,0
+					 16.9848633,48.5747899,0
+					 16.8090820,48.7199612,0
+					 16.5454102,48.8068635,0
 				  </coordinates>
 			   </LinearRing>
 			</outerBoundaryIs>
@@ -61,9 +96,9 @@
 		</Placemark>
 
         <Placemark>
-            <name><![CDATA[WWI 1]]></name>
+            <name><![CDATA[WWI Austria 1]]></name>
             <description><![CDATA[
-              1
+              WWI Austria 1
             ]]></description>
 			<IconStyle>
 			   <scale>1.1</scale>
@@ -74,31 +109,131 @@
             <Point>
                 <extrude>1</extrude>
 		        <altitudeMode>relativeToGround</altitudeMode>
-                <coordinates>-82.9926088333333,40.7105401666667,0</coordinates>
+                <coordinates>14.8558984,47.5375640,0</coordinates>
             </Point>
         </Placemark>
 
         <Placemark>
-            <name><![CDATA[WWI 2]]></name>
+            <name><![CDATA[WWI Austria 2]]></name>
             <description><![CDATA[
-              2
+              WWI Austria 2
             ]]></description>
             <Point>
                 <extrude>1</extrude>
 		        <altitudeMode>relativeToGround</altitudeMode>
-                <coordinates>-82.9972436666667,40.70649,0</coordinates>
+                <coordinates>14.8358984,47.2075640,0</coordinates>
             </Point>
         </Placemark>
 
         <Placemark>
-            <name><![CDATA[WWI 3]]></name>
+            <name><![CDATA[WWI Austria 3]]></name>
             <description><![CDATA[
-              3
+              WWI Austria 3
             ]]></description>
             <Point>
                 <extrude>1</extrude>
 		        <altitudeMode>relativeToGround</altitudeMode>
-                <coordinates>-82.9895081666667,40.7365838333333,0</coordinates>
+                <coordinates>14.8658984,48.4075640,0</coordinates>
+            </Point>
+        </Placemark>
+
+		<Placemark id="wwi">
+		 <name>WWI - Belgium</name>
+		 <visibility>1</visibility>
+		 <open>0</open>
+		 <styleUrl>#style-1</styleUrl>
+		 <Polygon>
+			<extrude>0</extrude>
+			<tessellate>1</tessellate>
+			<altitudeMode>clampToGround</altitudeMode>
+			<outerBoundaryIs>
+			   <LinearRing>
+				  <coordinates>
+					 3.1860352,51.3031453,0
+					 3.3837891,51.1242128,0
+					 3.5595703,51.2619149,0
+					 3.8891602,51.2068834,0
+					 4.3945313,51.3717804,0
+					 4.5483398,51.5087425,0
+					 4.7900391,51.4676970,0
+					 5.0097656,51.4540069,0
+					 5.3613281,51.3031453,0
+					 5.7348633,51.1517861,0
+					 5.9765625,50.9999289,0
+					 6.0424805,50.7503593,0
+					 6.3061523,50.4854735,0
+					 6.1962891,50.1909678,0
+					 5.9765625,50.1487464,0
+					 5.7348633,49.8946344,0
+					 5.8666992,49.6676278,0
+					 5.8447266,49.5252083,0
+					 5.5151367,49.5109435,0
+					 5.0537109,49.7528799,0
+					 4.8339844,49.8096316,0
+					 4.8339844,50.0218584,0
+					 4.8559570,50.1628243,0
+					 4.6582031,49.9936155,0
+					 4.2407227,49.9512199,0
+					 4.2187500,50.1205781,0
+					 4.1967773,50.2612538,0
+					 3.7792969,50.3454604,0
+					 3.5156250,50.5134265,0
+					 3.3178711,50.4994521,0
+					 3.2080078,50.6668723,0
+					 2.9663086,50.6668723,0
+					 2.7465820,50.7781553,0
+					 2.5488281,50.8198183,0
+					 2.6147461,50.9584267,0
+					 2.5268555,51.0828219,0
+					 2.7905273,51.1380015,0
+					 3.0102539,51.2481632,0
+					 3.1860352,51.3031453,0
+					 3.9550781,51.4950647,0
+				  </coordinates>
+			   </LinearRing>
+			</outerBoundaryIs>
+		 </Polygon>
+		</Placemark>
+
+        <Placemark>
+            <name><![CDATA[WWI Belgium 1]]></name>
+            <description><![CDATA[
+              WWI Belgium 1
+            ]]></description>
+			<IconStyle>
+			   <scale>1.1</scale>
+			   <Icon>
+				  <href></href>
+			   </Icon>
+			</IconStyle>
+            <Point>
+                <extrude>1</extrude>
+		        <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>2.8665820,50.6981553,0</coordinates>
+            </Point>
+        </Placemark>
+
+        <Placemark>
+            <name><![CDATA[WWI Belgium 2]]></name>
+            <description><![CDATA[
+              WWI Belgium 2
+            ]]></description>
+            <Point>
+                <extrude>1</extrude>
+		        <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>3.8665820,50.8481553,0</coordinates>
+            </Point>
+        </Placemark>
+
+        <Placemark>
+            <name><![CDATA[WWI Belgium 3]]></name>
+            <description><![CDATA[
+              WWI Belgium 3
+            ]]></description>
+            <Point>
+                <extrude>1</extrude>
+		        <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>4.8665820,50.9081553,0</coordinates>
             </Point>
         </Placemark>
    </Document>

@@ -4,6 +4,18 @@
 		<name>Korea POW-MIA</name>
 		<description>Description</description>
 
+		<Style id="style-1">
+			<LineStyle>
+			   <color>50FFFFFF</color>
+			   <width>1</width>
+			</LineStyle>
+			<PolyStyle>
+			   <color>50DCDCDC</color>
+			   <fill>1</fill>
+			   <outline>1</outline>
+			</PolyStyle>
+		</Style>
+
 	    <Placemark id="korea">
 		 <name><![CDATA[Korea]]></name>
             <description><![CDATA[
@@ -11,7 +23,7 @@
             ]]></description>
 		 <visibility>1</visibility>
 		 <open>0</open>
-		 <styleUrl>#style</styleUrl>
+		 <styleUrl>#style-1</styleUrl>
 		 <Polygon>
 			<extrude>0</extrude>
 			<tessellate>1</tessellate>
