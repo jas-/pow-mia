@@ -6,10 +6,10 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 	<Document>
 		<name>WWI POW-MIA</name>
-		<description>Country overlay of nations during occupation</description>
+		<description>Country overlay, location markers and information of nations during German occupation</description>
 
 		<!-- Style for coordinate fill(s) -->
-		<Style id="style-1">
+		<Style id="style">
 			<LineStyle>
 			   <color>50FFFFFF</color>
 			   <width>1</width>
@@ -37,7 +37,7 @@
 			<description><![CDATA[WWI - Occupied Austria]]></description>
 			<visibility>1</visibility>
 			<open>0</open>
-			<styleUrl>#style-1</styleUrl>
+			<styleUrl>#style</styleUrl>
 			<Polygon>
 				<extrude>0</extrude>
 				<tessellate>1</tessellate>
@@ -58,7 +58,7 @@
 			<description><![CDATA[WWI - Occupied Belgium]]></description>
 			<visibility>1</visibility>
 			<open>0</open>
-			<styleUrl>#style-1</styleUrl>
+			<styleUrl>#style</styleUrl>
 			<Polygon>
 				<extrude>0</extrude>
 				<tessellate>1</tessellate>
@@ -79,7 +79,7 @@
 			<description><![CDATA[WWI - Occupied Poland]]></description>
 			<visibility>1</visibility>
 			<open>0</open>
-			<styleUrl>#style-1</styleUrl>
+			<styleUrl>#style</styleUrl>
 			<Polygon>
 				<extrude>0</extrude>
 				<tessellate>1</tessellate>
@@ -100,7 +100,7 @@
 			<description><![CDATA[WWI - Occupied Denmark]]></description>
 			<visibility>1</visibility>
 			<open>0</open>
-			<styleUrl>#style-1</styleUrl>
+			<styleUrl>#style</styleUrl>
 			<Polygon>
 				<extrude>0</extrude>
 				<tessellate>1</tessellate>
@@ -121,7 +121,7 @@
 			<description><![CDATA[WWI - Occupied Norway]]></description>
 			<visibility>1</visibility>
 			<open>0</open>
-			<styleUrl>#style-1</styleUrl>
+			<styleUrl>#style</styleUrl>
 			<Polygon>
 				<extrude>0</extrude>
 				<tessellate>1</tessellate>
@@ -142,7 +142,7 @@
 			<description><![CDATA[WWI - Occupied Sweden]]></description>
 			<visibility>1</visibility>
 			<open>0</open>
-			<styleUrl>#style-1</styleUrl>
+			<styleUrl>#style</styleUrl>
 			<Polygon>
 				<extrude>0</extrude>
 				<tessellate>1</tessellate>
@@ -156,6 +156,184 @@
 				</outerBoundaryIs>
 			</Polygon>
 		</Placemark>
+
+		<!-- Marker & description information per country overlay -->
+		<Folder>
+			<name>Waypoints</name>
+			<!-- Place mark and information regarding WWI Sweden -->
+			<Placemark>
+				<name><![CDATA[Sweden]]></name>
+				<styleUrl>#icons</styleUrl>
+				<description><![CDATA[
+				<table>
+					<tr>
+						<td colspan="2"><b>WWI - Germany Occupied Sweden</b></td>
+					</tr>
+					<tr>
+						<td valign="top"><i>Role:</i></td>
+						<td>Neutral. Provided materials to Germany as well as supporting the Norwegian Resistance, Finland (also with materials) and rescuing Danish jews from deporation to concentraion camps.</td>
+					</tr>
+					<tr>
+						<td valign="top"><i>POW:</i></td>
+						<td>Unknown</td>
+					</tr>
+					<tr>
+						<td valign="top"><i>MIA:</i></td>
+						<td>Unknown</td>
+					</tr>
+				</table>
+				]]></description>
+				<Point>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>16.1718750,64.5484401,0</coordinates>
+				</Point>
+			</Placemark>
+
+			<!-- Place mark and information regarding WWI Norway -->
+			<Placemark>
+				<name><![CDATA[Norway]]></name>
+				<styleUrl>#icons</styleUrl>
+				<description><![CDATA[
+				<table>
+					<tr>
+						<td colspan="2"><b>WWI - Germany Occupied Norway</b></td>
+					</tr>
+					<tr>
+						<td valign="top"><i>Role:</i></td>
+						<td>Occupied by Nazi Germany</td>
+					</tr>
+					<tr>
+						<td valign="top"><i>POW:</i></td>
+						<td>Unknown</td>
+					</tr>
+					<tr>
+						<td valign="top"><i>MIA:</i></td>
+						<td>Unknown</td>
+					</tr>
+				</table>
+				]]></description>
+				<Point>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>8.7890625,61.1856247,0</coordinates>
+				</Point>
+			</Placemark>
+
+			<!-- Place mark and information regarding WWI Denmark -->
+			<Placemark>
+				<name><![CDATA[Denmark]]></name>
+				<styleUrl>#icons</styleUrl>
+				<description><![CDATA[
+				<table>
+					<tr>
+						<td colspan="2"><b>WWI - Germany Occupied Denmark</b></td>
+					</tr>
+					<tr>
+						<td valign="top"><i>Role:</i></td>
+						<td>Occupied by Nazi Germany</td>
+					</tr>
+					<tr>
+						<td valign="top"><i>POW:</i></td>
+						<td>Unknown</td>
+					</tr>
+					<tr>
+						<td valign="top"><i>MIA:</i></td>
+						<td>Unknown</td>
+					</tr>
+				</table>
+				]]></description>
+				<Point>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>10.0195313,57.1700230,0</coordinates>
+				</Point>
+			</Placemark>
+
+			<!-- Place mark and information regarding WWI Belgium -->
+			<Placemark>
+				<name><![CDATA[Belgium]]></name>
+				<styleUrl>#icons</styleUrl>
+				<description><![CDATA[
+				<table>
+					<tr>
+						<td colspan="2"><b>WWI - Germany Occupied Belgium</b></td>
+					</tr>
+					<tr>
+						<td valign="top"><i>Role:</i></td>
+						<td>Neutral. Occupied by Nazi Germany.</td>
+					</tr>
+					<tr>
+						<td valign="top"><i>POW:</i></td>
+						<td>Unknown</td>
+					</tr>
+					<tr>
+						<td valign="top"><i>MIA:</i></td>
+						<td>Unknown</td>
+					</tr>
+				</table>
+				]]></description>
+				<Point>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>4.9218750,51.9584267,0</coordinates>
+				</Point>
+			</Placemark>
+
+			<!-- Place mark and information regarding WWI Poland -->
+			<Placemark>
+				<name><![CDATA[Poland]]></name>
+				<styleUrl>#icons</styleUrl>
+				<description><![CDATA[
+				<table>
+					<tr>
+						<td colspan="2"><b>WWI - Germany Occupied Poland</b></td>
+					</tr>
+					<tr>
+						<td valign="top"><i>Role:</i></td>
+						<td>Large majority of fighting occured between 1914 and 1918 due to location, also known as the Eastern Front.</td>
+					</tr>
+					<tr>
+						<td valign="top"><i>POW:</i></td>
+						<td>Unknown</td>
+					</tr>
+					<tr>
+						<td valign="top"><i>MIA:</i></td>
+						<td>Unknown</td>
+					</tr>
+				</table>
+				]]></description>
+				<Point>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>19.5117188,53.0147832,0</coordinates>
+				</Point>
+			</Placemark>
+
+			<!-- Place mark and information regarding WWI Austria -->
+			<Placemark>
+				<name><![CDATA[Austria]]></name>
+				<styleUrl>#icons</styleUrl>
+				<description><![CDATA[
+				<table>
+					<tr>
+						<td colspan="2"><b>WWI - Germany Occupied Austria</b></td>
+					</tr>
+					<tr>
+						<td valign="top"><i>Role:</i></td>
+						<td>Occupied by Nazi Germany</td>
+					</tr>
+					<tr>
+						<td valign="top"><i>POW:</i></td>
+						<td>Unknown</td>
+					</tr>
+					<tr>
+						<td valign="top"><i>MIA:</i></td>
+						<td>Unknown</td>
+					</tr>
+				</table>
+				]]></description>
+				<Point>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>14.2382813,49.3416462,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
 
    </Document>
 </kml>

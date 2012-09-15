@@ -5,14 +5,13 @@
         <meta content="initial-scale=1.0, user-scalable=no" name="viewport">
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" media="screen, projection" href="css/styles.css">
-        <link rel="stylesheet" type="text/css" media="screen, projection" href="http://fonts.googleapis.com/css?family=Stoke|Emblema+One">
         <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
         <script type="text/javascript" src="js/kml2map.js"></script>
     </head>
     <body onload="initialize()">
         <div id="header">
             <div id="pow-mia-logo">
-                <a href="index.html"><img src="images/pow-mia-175x234.png" title="POW MIA - You are not forgotten" alt="POW MIA - You are not forgotten" /></a>
+                <a href="index.html"><img src="images/pow-mia-175x234.png" border="0" title="POW MIA - You are not forgotten" alt="POW MIA - You are not forgotten" /></a>
             </div>
             <div id="navigation">
                 <ul id="css3menu" class="topmenu" style="float: left">
@@ -26,7 +25,7 @@
                             <span><img src="images/medals/200px-Prisoner_of_War_ribbon.svg.png" alt="Conflicts" height="16"/>Conflicts</span>
                         </a>
                         <div class="submenu" style="width:644px;">
-                            <div class="column" style="width:35%">
+                            <div class="column" style="width:33.33%">
                                 <ul>
                                     <li><!-- WWI menu & submenus -->
                                         <a id="wwi" title="WWI - POW & MIA soliders from the world war one conflict" onclick="_loader(this.id); _title(this.title)" onmouseover="_spoof(this)">
@@ -39,19 +38,164 @@
                                                         <a href="#" title="US Marines">
                                                             <span><img src="images/branches/200px-USMC_logo.svg.png" alt="US Marine Corp" height="20"/>US Marines</span>
                                                         </a>
+                                                        <div class="submenu">
+                                                            <div class="column">
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#" title="US Marine Corp 1st Regiment">
+                                                                            <span><img src="images/divisions/marines/186px-1st_Marine_Regiment_insignia_(transparent_background).png" alt="1st Regiment" height="20"/>1st Regiment</span>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
                                                     </li>
+                                                    <li>
                                                         <a href="#" title="US Navy">
                                                             <span><img src="images/branches/200px-US-DeptOfNavy-Seal.svg.png" alt="US Navy" height="20"/>US Navy</span>
                                                         </a>
+                                                        <div class="submenu">
+                                                            <div class="column">
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#" title="US Navey Battleship Division 9">
+                                                                            <span><img src="images/branches/200px-US-DeptOfNavy-Seal.svg.png" alt="Battleship Division 9" height="20"/>US Navy Battleship Division 9</span>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </li>
                                                     <li>
                                                         <a href="#" title="US Air Force">
                                                             <span><img src="images/branches/200px-Seal_of_the_US_Air_Force.svg.png" alt="US Air Force" height="20"/>US Air Force</span>
                                                         </a>
+                                                        <div class="submenu">
+                                                            <div class="column">
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#" title="Army Air Service Division">
+                                                                            <span><img src="images/divisions/air-force/200px-Prop_and_wings.svg.png" alt="Army Air Service" height="20"/>Army Air Service</span>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
                                                     </li>
                                                     <li>
                                                         <a href="#" title="US Army">
                                                             <span><img src="images/branches/200px-United_States_Department_of_the_Army_Seal.svg.png" alt="US Army" height="20"/>US Army</span>
                                                         </a>
+                                                        <div class="submenu" style="width:537px;">
+                                                            <div class="column" style="width:33.33%">
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#" title="1st Infantry Division">
+                                                                            <span><img src="images/divisions/army/200px-US_1st_Infantry_Division_SSI.svg.png" alt="1st Infantry Division" height="20"/>1st Infantry Division</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#" title="2nd Infantry Division">
+                                                                            <span><img src="images/divisions/army/200px-2_Infantry_Div_SSI.svg.png" alt="2nd Division" height="20"/>2nd Infantry Division</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#" title="3rd Infantry Division">
+                                                                            <span><img src="images/divisions/army/200px-3_Infantry_Div_Patch.svg.png" alt="3rd Infantry Division" height="20"/>3rd Infantry Division</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#" title="4th Infantry Division">
+                                                                            <span><img src="images/divisions/army/200px-4_Infantry_Division_SSI.svg.png" alt="4th Infantry Division" height="20"/>4th Infantry Division</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#" title="5th Infantry Division">
+                                                                            <span><img src="images/divisions/army/200px-US_5th_Infantry_Division.svg.png" alt="5th Infantry Division" height="20"/>5th Infantry Division</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#" title="6th Infantry Division">
+                                                                            <span><img src="images/divisions/army/200px-6th_Infantry_Division.svg.png" alt="6th Infantry Division" height="20"/>6th Infantry Division</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#" title="7th Infantry Division">
+                                                                            <span><img src="images/divisions/army/200px-7th_ID_SSI.svg.png" alt="7th Infantry Division" height="20"/>7th Infantry Division</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#" title="26th Infantry Division">
+                                                                            <span><img src="images/divisions/army/200px-Yankee_Division_Patch.svg.png" alt="26th Infantry Division" height="20"/>26th Infantry Division</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#" title="27th Infantry Division">
+                                                                            <span><img src="images/divisions/army/200px-27th_Infantry_Division_SSI.svg.png" alt="27th Infantry Division" height="20"/>27th Infantry Division</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#" title="28th Infantry Division">
+                                                                            <span><img src="images/divisions/army/200px-US28th_Infantry_Division.svg.png" alt="28th Infantry Division" height="20"/>28th Infantry Division</span>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="column" style="width:33.33%">
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#" title="29th Infantry Division">
+                                                                            <span><img src="images/divisions/army/200px-29th_ID_SSI.svg.png" alt="29th Infantry Division" height="20"/>29th Infantry Division</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#" title="30th Infantry Division">
+                                                                            <span><img src="images/divisions/army/200px-30th_Infantry_Division_SSI.svg.png" alt="30th Division" height="20"/>30th Infantry Division</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#" title="32nd Infantry Division">
+                                                                            <span><img src="images/divisions/army/200px-32nd_infantry_division_shoulder_patch.svg.png" alt="32nd Infantry Division" height="20"/>32nd Infantry Division</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#" title="33rd Infantry Division">
+                                                                            <span><img src="images/divisions/army/200px-33rd_Infantry_Division_SSI.svg.png" alt="33rd Infantry Division" height="20"/>33rd Infantry Division</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#" title="35th Infantry Division">
+                                                                            <span><img src="images/divisions/army/" alt="35th Infantry Division" height="20"/>35th Infantry Division</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#" title="36th Infantry Division">
+                                                                            <span><img src="images/divisions/army/200px-36th_Infantry_Division_SSI.svg.png" alt="36th Infantry Division" height="20"/>36th Infantry Division</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#" title="37th Infantry Division">
+                                                                            <span><img src="images/divisions/army/200px-37th_Infantry_Division_SSI.svg.png" alt="37th Infantry Division" height="20"/>37th Infantry Division</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#" title="42nd Infantry Division">
+                                                                            <span><img src="images/divisions/army/200px-42nd_Infantry_Division_SSI.svg.png" alt="42nd Infantry Division" height="20"/>42nd Infantry Division</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#" title="77th Infantry Division">
+                                                                            <span><img src="images/divisions/army/" alt="77th Infantry Division" height="20"/>77th Infantry Division</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#" title="78th Infantry Division">
+                                                                            <span><img src="images/divisions/army/200px-78th_Infantry_Division_SSI.svg.png" alt="78th Infantry Division" height="20"/>78th Infantry Division</span>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -117,7 +261,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="column" style="width:35%">
+                            <div class="column" style="width:33.33%">
                                 <ul>
                                     <li><!-- Vietnam menu & submenus -->
                                         <a id="vietnam" title="WWI - POW & MIA soliders from the Vietnam conflict" onclick="_loader(this.id); _title(this.alt)" onmouseover="_spoof(this)">
@@ -208,7 +352,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="column" style="width:30%">
+                            <div class="column" style="width:33.33%">
                                 <ul>
                                     <li><!-- Iraqi freedom menu & submenus -->
                                         <a id="iraqi-freedom" title="WWI - POW & MIA soliders from the Iraqi freedom conflict" onclick="_loader(this.id); _title(this.title)" onmouseover="_spoof(this)">
@@ -251,108 +395,45 @@
                             <div class="column" style="width:33.33%">
                                 <ul>
                                     <li>
-                                        <a href="#" title="Android Template"><img src="images/047.png" alt="Android Template"/>Android Template</a>
+                                        <a href="#" title=""><img src="images/047.png" alt=""/>Resource #1</a>
                                     </li>
                                     <li>
-                                        <a href="#" title="Blocks Template"><span><img src="images/045.png" alt="Blocks Template"/>Blocks Template</span></a>
-                                        <div class="submenu" style="width:400px;">
-                                            <div class="column" style="width:50%">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Blue Theme">Blue Theme</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Green Fodder Theme">Green Fodder Theme</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Grey Theme">Grey Theme</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="column" style="width:50%">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Light Theme">Light Theme</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Orange Theme">Orange Theme</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Purple Theme">Purple Theme</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
+                                        <a href="#" title=""><img src="images/045.png" alt=""/>Resource #2</a>
                                     </li>
                                     <li>
-                                        <a href="#" title="Elegant Template"><img src="images/043.png" alt="Elegant Template"/>Elegant Template</a>
+                                        <a href="#" title=""><img src="images/043.png" alt=""/>Resource #3</a>
                                     </li>
                                 </ul>
                             </div>
                             <div class="column" style="width:33.33%">
                                 <ul>
                                     <li>
-                                        <a href="#" title="Frame  Template"><img src="images/046.png" alt="Frame  Template"/>Frame  Template</a>
+                                        <a href="#" title=""><img src="images/047.png" alt=""/>Resource #4</a>
                                     </li>
                                     <li>
-                                        <a href="#" title="Fresh Template"><img src="images/0471.png" alt="Fresh Template"/>Fresh Template</a>
+                                        <a href="#" title=""><img src="images/045.png" alt=""/>Resource #5</a>
                                     </li>
                                     <li>
-                                        <a href="#" title="Mac Template"><img src="images/0451.png" alt="Mac Template"/>Mac Template</a>
+                                        <a href="#" title=""><img src="images/043.png" alt=""/>Resource #6</a>
                                     </li>
                                 </ul>
                             </div>
                             <div class="column" style="width:33.33%">
                                 <ul>
                                     <li>
-                                        <a href="#" title="Neon Template"><span><img src="images/0461.png" alt="Neon Template"/>Neon Template</span></a>
-                                        <div class="submenu" style="width:314px;">
-                                    		<div class="column" style="width:50%">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Green Theme">Green Theme</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Liliac Theme">Liliac Theme</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Blue Theme">Blue Theme</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="column" style="width:50%">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Neon Theme">Neon Theme</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Orange Theme">Orange Theme</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
+                                        <a href="#" title=""><img src="images/047.png" alt=""/>Resource #7</a>
                                     </li>
                                     <li>
-                                        <a href="#" title="New Templates"><img src="images/0441.png" alt="New Templates"/>New Templates</a>
+                                        <a href="#" title=""><img src="images/045.png" alt=""/>Resource #8</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title=""><img src="images/043.png" alt=""/>Resource #9</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </li>
                 </ul>
-
-<!--
-                <ul>
-                    <li><a id="wwi" title="WWI - POW & MIA soliders from the world war one conflict" onclick="_loader(this.id); _title(this.title)" onmouseover="_spoof(this)">WWI</a></li>
-                    <li><a id="wwii" title="WWII - POW & MIA soliders from the world war two conflict" onclick="_loader(this.id); _title(this.title)" onmouseover="_spoof(this)">WWII</a></li>
-                    <li><a id="korea" title="WWI - POW & MIA soliders from the Korean war one conflict" onclick="_loader(this.id); _title(this.title)" onmouseover="_spoof(this)">Korea</a></li>
-                    <li><a id="vietnam" title="WWI - POW & MIA soliders from the Vietnam conflict" onclick="_loader(this.id); _title(this.alt)" onmouseover="_spoof(this)">Vietnam</a></li>
-                    <li><a id="el-dorado-canyon" title="WWI - POW & MIA soliders from the El Dorado conflict" onclick="_loader(this.id); _title(this.title)" onmouseover="_spoof(this)">El Dorado Canyon</a></li>
-                    <li><a id="cold-war" title="WWI - POW & MIA soliders from the cold war" onclick="_loader(this.id); _title(this.title)" onmouseover="_spoof(this)">Cold War</a></li>
-                    <li><a id="desert-storm" title="WWI - POW & MIA soliders from the desert storm conflict" onclick="_loader(this.id); _title(this.title)" onmouseover="_spoof(this)">Desert Storm</a></li>
-                    <li><a id="iraqi-freedom" title="WWI - POW & MIA soliders from the Iraqi freedom conflict" onclick="_loader(this.id); _title(this.title)" onmouseover="_spoof(this)">Iraqi Freedom</a></li>
-                </ul>
--->
             </div>
         </div>
         <div id="map"></div>
@@ -364,41 +445,3 @@
         </div>
     </body>
 </html>
-
-<!-- Use this for various brigades per branch of service
-
-                                    <li>
-                                        <a href="#" title="2.4 Dynamic Functions"><img src="images/157.png" alt="2.4 Dynamic Functions"/>2.4 Dynamic Functions</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" title="2.5 Supported Browsers"><span><img src="images/102.png" alt="2.5 Supported Browsers"/>2.5 Supported Browsers</span></a>
-                                        <div class="submenu" style="width:346px;">
-                                            <div class="column" style="width:50%">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Firefox"><img src="images/125.png" alt="Firefox"/>Firefox</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Internet Explorer"><img src="images/122.png" alt="Internet Explorer"/>Internet Explorer</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Opera"><img src="images/124.png" alt="Opera"/>Opera</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="column" style="width:50%">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Safari"><img src="images/1221.png" alt="Safari"/>Safari</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Google Chrome"><img src="images/123.png" alt="Google Chrome"/>Google Chrome</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" title="Konqueror"><img src="images/1241.png" alt="Konqueror"/>Konqueror</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </li>
--->

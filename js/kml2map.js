@@ -45,8 +45,8 @@ function _loader(file) {
 
     /* initialize a layer with the specified kml file */
     data = new google.maps.KmlLayer(files[file], {
-        map: map,
-        suppressInfoWindows: true
+        map: map//,
+        //suppressInfoWindows: true
     });
 
     /* bind click events to the markers using kml attributes to populate the info windows */
