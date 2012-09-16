@@ -2,11 +2,15 @@
 <html>
     <head>
         <title>POW * MIA - You are not forgotten</title>
-        <meta name="keywords" content="division,infantry,navy,air,army,marines,war,service,infantry division,air force,war marines,world war,pow mia,vietnam war">
-        <meta content="initial-scale=1.0, user-scalable=no" name="viewport">
         <meta charset="utf-8">
+        <link rel="shortcut icon" href="images/medals/200px-Prisoner_of_War_ribbon.svg.png" type="image/x-icon">
+        <meta name="description" content="POW * MIA - You are not forgotten. An interactive map of US conflicts providing location data on those of gave all" />
+        <meta name="keywords" content="division,infantry,navy,air,army,marines,war,service,infantry division,air force,war marines,world war,pow mia,vietnam war">
+        <meta name="author" content="Jason Gerfen [jason.gerfen@gmail.com]">
+        <meta content="initial-scale=1.0, user-scalable=no" name="viewport">
         <link rel="stylesheet" type="text/css" media="screen, projection" href="css/styles.css">
         <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+        <script type="text/javascript" src="js/kml-data.js"></script>
         <script type="text/javascript" src="js/kml2map.js"></script>
     </head>
     <body onload="initialize()">
@@ -28,25 +32,25 @@
                         <a title="Conflicts">
                             <span><img src="images/medals/200px-Prisoner_of_War_ribbon.svg.png" alt="Conflicts" height="16"/>Conflicts</span>
                         </a>
-                        <div class="submenu" style="width:644px;">
-                            <div class="column" style="width:33.33%">
+                        <div class="submenu" style="width: 644px;">
+                            <div class="column" style="width: 33.33%">
                                 <ul>
                                     <li><!-- WWI menu & submenus -->
-                                        <a id="wwi" title="POW & MIA soliders from the world war one conflict" onclick="_loader(this.id); _title(this.title)" onmouseover="_spoof(this)">
+                                        <a id="wwi" title="Information about the US involvement in the World war I conflict" onclick="_loader(['wwi']); _title(this.title);" onmouseover="_spoof(this);">
                                             <span><img src="images/medals/200px-World_War_I_Victory_Medal_ribbon.svg.png" alt="WWI" height="16"/>World war I</span>
                                         </a>
                                         <div class="submenu">
                                             <div class="column">
                                                 <ul>
                                                     <li>
-                                                        <a title="US Marines">
+                                                        <a title="Information about the US Marine corp involvement in the World war I conflict">
                                                             <span><img src="images/branches/200px-USMC_logo.svg.png" alt="US Marine Corp" height="20"/>US Marines</span>
                                                         </a>
                                                         <div class="submenu">
                                                             <div class="column">
                                                                 <ul>
                                                                     <li>
-                                                                        <a title="US Marine Corp 1st Regiment">
+                                                                        <a title="Information about the US Marine Corp 1st Regiment involvement in the World war I conflict">
                                                                             <span><img src="images/divisions/marines/186px-1st_Marine_Regiment_insignia_(transparent_background).png" alt="1st Regiment" height="20"/>1st Regiment</span>
                                                                         </a>
                                                                     </li>
@@ -55,14 +59,14 @@
                                                         </div>
                                                     </li>
                                                     <li>
-                                                        <a title="US Navy">
+                                                        <a title="Information about the US Navy involvement in the World war I conflict">
                                                             <span><img src="images/branches/200px-US-DeptOfNavy-Seal.svg.png" alt="US Navy" height="20"/>US Navy</span>
                                                         </a>
                                                         <div class="submenu">
                                                             <div class="column">
                                                                 <ul>
                                                                     <li>
-                                                                        <a title="US Navey Battleship Division 9">
+                                                                        <a title="Information about the US Navy Battleship Division 9 involvement in the World war I conflict">
                                                                             <span><img src="images/branches/200px-US-DeptOfNavy-Seal.svg.png" alt="Battleship Division 9" height="20"/>US Navy Battleship Division 9</span>
                                                                         </a>
                                                                     </li>
@@ -71,14 +75,14 @@
                                                         </div>
                                                     </li>
                                                     <li>
-                                                        <a title="US Air Force">
+                                                        <a title="Information about the US Air Force involvement in the World war I conflict">
                                                             <span><img src="images/branches/200px-Seal_of_the_US_Air_Force.svg.png" alt="US Air Force" height="20"/>US Air Force</span>
                                                         </a>
                                                         <div class="submenu">
                                                             <div class="column">
                                                                 <ul>
                                                                     <li>
-                                                                        <a title="Army Air Service Division">
+                                                                        <a title="Information about the US Army Air Service Division involvement in the World war I conflict">
                                                                             <span><img src="images/divisions/air-force/200px-Prop_and_wings.svg.png" alt="Army Air Service" height="20"/>Army Air Service</span>
                                                                         </a>
                                                                     </li>
@@ -87,11 +91,11 @@
                                                         </div>
                                                     </li>
                                                     <li>
-                                                        <a id="wwi-army" title="POW & MIA soliders from the world war one conflict" onclick="_loader('wwi'); _loader(this.id, false); _title(this.title)" onmouseover="_spoof(this)">
+                                                        <a id="wwi-army" title="Information about the US Army involvement in the World war I conflict" onclick="_loader(['wwi', 'wwi-army']); _title(this.title);" onmouseover="_spoof(this);">
                                                             <span><img src="images/branches/200px-United_States_Department_of_the_Army_Seal.svg.png" alt="US Army" height="20"/>US Army</span>
                                                         </a>
-                                                        <div class="submenu" style="width:537px;">
-                                                            <div class="column" style="width:33.33%">
+                                                        <div class="submenu" style="width: 537px;">
+                                                            <div class="column" style="width: 33.33%">
                                                                 <ul>
                                                                     <li>
                                                                         <a title="1st Infantry Division">
@@ -206,7 +210,7 @@
                                         </div>
                                     </li>
                                     <li><!-- WWII menu & submenus -->
-                                        <a id="wwii" title="WWII - POW & MIA soliders from the world war two conflict" onclick="_loader(this.id); _title(this.title)" onmouseover="_spoof(this);">
+                                        <a id="wwii" title="WWII - POW & MIA soliders from the world war two conflict" onclick="_loader(this.id); _title(this.title);" onmouseover="_spoof(this);">
                                             <span><img src="images/medals/200px-World_War_II_Victory_Medal_ribbon.svg.png" alt="WWII" height="16"/>World war II</span>
                                         </a>
                                         <div class="submenu">
@@ -235,7 +239,7 @@
                                         </div>
                                     </li>
                                     <li><!-- Korea menu & submenus -->
-                                        <a id="korea" title="POW & MIA soliders from the Korean war one conflict" onclick="_loader(this.id); _title(this.title)" onmouseover="_spoof(this);">
+                                        <a id="korea" title="POW & MIA soliders from the Korean war one conflict" onclick="_loader(this.id); _title(this.title);" onmouseover="_spoof(this);">
                                             <span><img src="images/medals/200px-Korea_Defense_Service_ribbon.svg.png" alt="Korea" height="16"/>Korean war</span>
                                         </a>
                                         <div class="submenu">
@@ -268,7 +272,7 @@
                             <div class="column" style="width:33.33%">
                                 <ul>
                                     <li><!-- Vietnam menu & submenus -->
-                                        <a id="vietnam" title="POW & MIA soliders from the Vietnam conflict" onclick="_loader(this.id); _title(this.alt)" onmouseover="_spoof(this);">
+                                        <a id="vietnam" title="POW & MIA soliders from the Vietnam conflict" onclick="_loader(this.id); _title(this.title);" onmouseover="_spoof(this);">
                                             <span><img src="images/medals/200px-Vietnam_Service_Ribbon.svg.png" alt="Vietnam war" height="16"/>Vietnam war</span>
                                         </a>
                                         <div class="submenu">
@@ -472,8 +476,8 @@
         <div id="map"></div>
         <div id="footer">
             <ul>
-                <li><a title="credits">Credits</a><div id="credits" style="display: none"><a href="http://css3menu.com/elegant-dark-menu.html">Menu system via http://css3menu.com</a></div></li>
-                <li>2012 &copy <a onclick="document.location='https://github.com/jas-'">Jason Gerfen</a></li>
+                <!--<li><a title="credits">Credits</a><div id="credits" style="display: none"><a href="http://css3menu.com/elegant-dark-menu.html">Menu system via http://css3menu.com</a></div></li>-->
+                <li>2012 &copy <a onmouseover="_spoof(this);" onclick="document.location='https://github.com/jas-'">Jason Gerfen</a></li>
             </ul>
         </div>
     </body>
