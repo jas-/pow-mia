@@ -16,9 +16,12 @@
             <div id="navigation">
                 <ul id="css3menu" class="topmenu" style="float: left">
                     <li class="topmenu">
-                        <a href="#" title="About">
+                        <a conclick="_modal(document.getElementById('info'))" onmouseover="_spoof(this)" title="About">
                             <img src="images/005.png" alt="HOME"/>About
                         </a>
+                        <div id="info" style="display: none">
+                            An interactive guide to learning more about American POW/MIA soliders. The information is provided from various sources and is catagorized by conflict, branch of service & the division of each individual.
+                        </div>
                     </li>
                     <li class="toproot">
                         <a href="#" title="Conflicts">
@@ -83,7 +86,7 @@
                                                         </div>
                                                     </li>
                                                     <li>
-                                                        <a href="#" title="US Army">
+                                                        <a id="wwi-army" title="WWI - POW & MIA soliders from the world war one conflict" onclick="_loader('wwi'); _loader(this.id, false); _title(this.title)" onmouseover="_spoof(this)">
                                                             <span><img src="images/branches/200px-United_States_Department_of_the_Army_Seal.svg.png" alt="US Army" height="20"/>US Army</span>
                                                         </a>
                                                         <div class="submenu" style="width:537px;">

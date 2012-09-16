@@ -6,13 +6,38 @@ var date = (new Date()).valueOf();
 
 /* associative array of kml data files */
 var files = new Array();
+
+/* kml data files associated with WWI */
 files['wwi']              = (date) ? url+'pow-mia-wwi.kml?r='+date : url+'pow-mia-wwi.kml';
-files['wwii']             = (date) ? url+'pow-mia-wwii.kml?r='+date : url+'pow-mia-wwii.kml';
-files['korea']            = (date) ? url+'pow-mia-korea.kml?r='+date : url+'pow-mia-korea.kml';
+files['wwi-army']         = (date) ? url+'pow-mia-wwi-army.kml?r='+date : url+'pow-mia-wwi-army.kml';
+files['wwi-navy']         = (date) ? url+'pow-mia-wwi-navy.kml?r='+date : url+'pow-mia-wwi-navy.kml';
+files['wwi-marines']      = (date) ? url+'pow-mia-wwi-marines.kml?r='+date : url+'pow-mia-wwi-marines.kml';
+files['wwi-air-force']    = (date) ? url+'pow-mia-wwi-air-force.kml?r='+date : url+'pow-mia-wwi-airforce.kml';
+
+/* kml data files associated with WWI */
+files['wwii']              = (date) ? url+'pow-mia-wwii.kml?r='+date : url+'pow-mia-wwii.kml';
+files['wwii']['army']      = (date) ? url+'pow-mia-wwii-army.kml?r='+date : url+'pow-mia-wwii-army.kml';
+files['wwii']['navy']      = (date) ? url+'pow-mia-wwii-navy.kml?r='+date : url+'pow-mia-wwii-navy.kml';
+files['wwii']['marines']   = (date) ? url+'pow-mia-wwii-marines.kml?r='+date : url+'pow-mia-wwii-marines.kml';
+files['wwii']['air-force'] = (date) ? url+'pow-mia-wwii-air-force.kml?r='+date : url+'pow-mia-wwwii-airforce.kml';
+
+/* kml data files associated with Korea */
+files['korea']              = (date) ? url+'pow-mia-korea.kml?r='+date : url+'pow-mia-korea.kml';
+files['korea']['army']      = (date) ? url+'pow-mia-korea-army.kml?r='+date : url+'pow-mia-korea-army.kml';
+files['korea']['navy']      = (date) ? url+'pow-mia-korea-navy.kml?r='+date : url+'pow-mia-korea-navy.kml';
+files['korea']['marines']   = (date) ? url+'pow-mia-korea-marines.kml?r='+date : url+'pow-mia-korea-marines.kml';
+files['korea']['air-force'] = (date) ? url+'pow-mia-korea-air-force.kml?r='+date : url+'pow-mia-korea-airforce.kml';
+
+/* kml data files associated with Vietnam */
 files['vietnam']          = (date) ? url+'pow-mia-vietnam.kml?r='+date : url+'pow-mia-vietnam.kml';
+
+/* kml data files associated with the cold war */
 files['cold-war']         = (date) ? url+'pow-mia-cold-war.kml?r='+date : url+'pow-mia-cold-war.kml';
-files['el-dorado-canyon'] = (date) ? url+'pow-mia-el-dorado-canyon.kml?r='+date : url+'pow-mia-el-dorado-canyon.kml';
+
+/* kml data files associated with desert storm */
 files['desert-storm']     = (date) ? url+'pow-mia-desert-storm.kml?r='+date : url+'pow-desert-storm.kml';
+
+/* kml data files associated with iraqi freedom */
 files['iraqi-freedom']    = (date) ? url+'pow-mia-iraqi-freedom.kml?r='+date : url+'pow-iraqi-freedom.kml';
 
 /* globalize the map & data objects */
@@ -38,15 +63,14 @@ function initialize() {
 }
 
 /* load the requested kml overlay */
-function _loader(file) {
+function _loader(file, reset) {
 
     /* unset any existing overlays first */
-    if (data) data.setMap(null);
+    if ((data)&&(reset)) data.setMap(null);
 
     /* initialize a layer with the specified kml file */
     data = new google.maps.KmlLayer(files[file], {
-        map: map//,
-        //suppressInfoWindows: true
+        map: map
     });
 
     /* bind click events to the markers using kml attributes to populate the info windows */
