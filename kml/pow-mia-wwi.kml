@@ -81,7 +81,7 @@
 			</IconStyle>
 		</Style>
 
-		<!-- Style map marker for Austria -->
+		<!--nam Style map marker for Austria -->
 		<Style id="austria">
 			<IconStyle>
 				<scale>1.1</scale>
