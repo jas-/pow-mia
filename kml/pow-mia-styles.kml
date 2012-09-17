@@ -1,0 +1,89 @@
+<!-- Jason Gerfen <jason.gerfen@gmail.com> -->
+<!-- KML stylesheet for overlays & markers -->
+
+<!-- Style for coordinate fill(s) -->
+<Style id="style">
+    <LineStyle>
+        <color>50FFFFFF</color>
+        <width>1</width>
+    </LineStyle>
+    <PolyStyle>
+        <color>501400E6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+    </PolyStyle>
+</Style>
+
+<!-- Style map marker for Sweden -->
+<Style id="sweden">
+    <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+            <href>http://dev.in-my-cloud.com/pow-mia/images/countries/Sweden32.png</href>
+        </Icon>
+    </IconStyle>
+</Style>
+
+<!-- Style map marker for Austria -->
+<Style id="austria">
+    <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+            <href>http://dev.in-my-cloud.com/pow-mia/images/countries/Austria32.png</href>
+        </Icon>
+    </IconStyle>
+</Style>
+
+<!-- Style map marker for Belgium -->
+<Style id="belgium">
+    <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+            <href>http://dev.in-my-cloud.com/pow-mia/images/countries/Belgium32.png</href>
+        </Icon>
+    </IconStyle>
+</Style>
+
+<!-- Style map marker for Norway -->
+<Style id="norway">
+    <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+            <href>http://dev.in-my-cloud.com/pow-mia/images/countries/Norway32.png</href>
+        </Icon>
+    </IconStyle>
+</Style>
+
+<!-- Style map marker for Poland -->
+<Style id="poland">
+    <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+            <href>http://dev.in-my-cloud.com/pow-mia/images/countries/Poland32.png</href>
+        </Icon>
+	</IconStyle>
+</Style>
+
+<!-- Style map marker for France -->
+<Style id="france">
+    <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+            <href>http://dev.in-my-cloud.com/pow-mia/images/countries/France32.png</href>
+        </Icon>
+    </IconStyle>
+</Style>
+
+<!-- Style map marker for Denmark -->
+<Style id="denmark">
+    <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+            <href>http://dev.in-my-cloud.com/pow-mia/images/countries/Denmark32.png</href>
+        </Icon>
+    </IconStyle>
+    <BalloonStyle>
+        <text>&lt;h1&gt;$[name]&lt;/h1&gt;$[description]</text>
+        <bgColor>ffd5efff</bgColor>
+    </BalloonStyle>
+</Style>

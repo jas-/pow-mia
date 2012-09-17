@@ -21,22 +21,72 @@
 			</PolyStyle>
 		 </Style>
 
-		<!-- Style for map markers (default) -->
-		<Style id="icons">
-			<IconStyle>
-				<scale>1.1</scale>
-				<Icon>
-					<href>http://maps.google.com/mapfiles/kml/pal5/icon13.png</href>
-				</Icon>
-			</IconStyle>
-		</Style>
-
-		<!-- Style for sweden map marker -->
+		<!-- Style map marker for Sweden -->
 		<Style id="sweden">
 			<IconStyle>
 				<scale>1.1</scale>
 				<Icon>
-					<href>http://dev.in-my-cloud.com/images/countries/Sweden32.png</href>
+					<href>http://dev.in-my-cloud.com/pow-mia/images/countries/Sweden32.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+
+		<!-- Style map marker for Belgium -->
+		<Style id="belgium">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://dev.in-my-cloud.com/pow-mia/images/countries/Belgium32.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+
+		<!-- Style map marker for Norway -->
+		<Style id="norway">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://dev.in-my-cloud.com/pow-mia/images/countries/Norway32.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+
+		<!-- Style map marker for Poland -->
+		<Style id="poland">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://dev.in-my-cloud.com/pow-mia/images/countries/Poland32.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+
+		<!-- Style map marker for France -->
+		<Style id="france">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://dev.in-my-cloud.com/pow-mia/images/countries/France32.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+
+		<!-- Style map marker for Denmark -->
+		<Style id="denmark">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://dev.in-my-cloud.com/pow-mia/images/countries/Denmark32.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+
+		<!-- Style map marker for Austria -->
+		<Style id="austria">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://dev.in-my-cloud.com/pow-mia/images/countries/Austria32.png</href>
 				</Icon>
 			</IconStyle>
 		</Style>
@@ -83,7 +133,7 @@
 			</Polygon>
 		 </Placemark>
 
-		<!-- Polan overlay -->
+		<!-- Poland overlay -->
 		<Placemark id="wwi-poland">
 			<name><![CDATA[WWI - Poland]]></name>
 			<description><![CDATA[WWI - Occupied Poland]]></description>
@@ -223,7 +273,7 @@
 			<!-- Place mark and information regarding WWI Norway -->
 			<Placemark>
 				<name><![CDATA[Norway]]></name>
-				<styleUrl>#icons</styleUrl>
+				<styleUrl>#norway</styleUrl>
 				<description><![CDATA[
 				<table>
 					<tr>
@@ -252,7 +302,7 @@
 			<!-- Place mark and information regarding WWI Denmark -->
 			<Placemark>
 				<name><![CDATA[Denmark]]></name>
-				<styleUrl>#icons</styleUrl>
+				<styleUrl>#denmark</styleUrl>
 				<description><![CDATA[
 				<table>
 					<tr>
@@ -274,14 +324,14 @@
 				]]></description>
 				<Point>
 					<altitudeMode>clampedToGround</altitudeMode>
-					<coordinates>9.5141602,55.5907634,0</coordinates>
+					<coordinates>9.5141602,57.5907634,0</coordinates>
 				</Point>
 			</Placemark>
 
 			<!-- Place mark and information regarding WWI Belgium -->
 			<Placemark>
 				<name><![CDATA[Belgium]]></name>
-				<styleUrl>#icons</styleUrl>
+				<styleUrl>#belgium</styleUrl>
 				<description><![CDATA[
 				<table>
 					<tr>
@@ -303,14 +353,14 @@
 				]]></description>
 				<Point>
 					<altitudeMode>clampedToGround</altitudeMode>
-					<coordinates>4.5922852,50.4854735,0</coordinates>
+					<coordinates>4.5922852,51.2854735,0</coordinates>
 				</Point>
 			</Placemark>
 
 			<!-- Place mark and information regarding WWI Poland -->
 			<Placemark>
 				<name><![CDATA[Poland]]></name>
-				<styleUrl>#icons</styleUrl>
+				<styleUrl>#poland</styleUrl>
 				<description><![CDATA[
 				<table>
 					<tr>
@@ -339,7 +389,7 @@
 			<!-- Place mark and information regarding WWI Austria -->
 			<Placemark>
 				<name><![CDATA[Austria]]></name>
-				<styleUrl>#icons</styleUrl>
+				<styleUrl>#austria</styleUrl>
 				<description><![CDATA[
 				<table>
 					<tr>
@@ -361,14 +411,14 @@
 				]]></description>
 				<Point>
 					<altitudeMode>clampedToGround</altitudeMode>
-					<coordinates>14.1064453,47.5913465,0</coordinates>
+					<coordinates>14.1064453,48.3913465,0</coordinates>
 				</Point>
 			</Placemark>
 
 			<!-- Place mark and information regarding WWI France -->
 			<Placemark>
 				<name><![CDATA[France]]></name>
-				<styleUrl>#icons</styleUrl>
+				<styleUrl>#france</styleUrl>
 				<description><![CDATA[
 				<table>
 					<tr>
