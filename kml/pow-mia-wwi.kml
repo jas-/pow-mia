@@ -31,6 +31,16 @@
 			</IconStyle>
 		</Style>
 
+		<!-- Style for sweden map marker -->
+		<Style id="sweden">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://dev.in-my-cloud.com/images/countries/Sweden32.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+
 		<!-- Austria overlay -->
 		<Placemark id="wwi-austria">
 			<name><![CDATA[WWI - Austria]]></name>
@@ -184,7 +194,7 @@
 			<!-- Place mark and information regarding WWI Sweden -->
 			<Placemark>
 				<name><![CDATA[Sweden]]></name>
-				<styleUrl>#icons</styleUrl>
+				<styleUrl>#sweden</styleUrl>
 				<description><![CDATA[
 				<table>
 					<tr>
