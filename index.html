@@ -248,7 +248,7 @@
 
                                     <!-- WWII menu & submenus -->
                                     <li>
-                                        <a id="wwii" title="WWII - POW & MIA soliders from the world war two conflict" onclick="_loader(this.id); _title(this.title);" onmouseover="_spoof(this);">
+                                        <a id="wwii" title="WWII - POW & MIA soliders from the world war two conflict" onclick="_loader(['wwii']); _title(this.title);" onmouseover="_spoof(this);">
                                             <span><img src="images/medals/200px-World_War_II_Victory_Medal_ribbon.svg.png" alt="WWII" height="16"/>World war II</span>
                                         </a>
 
@@ -279,7 +279,7 @@
                                         </div>
                                     </li>
                                     <li><!-- Korea menu & submenus -->
-                                        <a id="korea" title="POW & MIA soliders from the Korean war one conflict" onclick="_loader(this.id); _title(this.title);" onmouseover="_spoof(this);">
+                                        <a id="korea" title="POW & MIA soliders from the Korean war one conflict" onclick="_loader(['korea']); _title(this.title);" onmouseover="_spoof(this);">
                                             <span><img src="images/medals/200px-Korea_Defense_Service_ribbon.svg.png" alt="Korea" height="16"/>Korean war</span>
                                         </a>
                                         <div class="submenu">
@@ -312,7 +312,7 @@
                             <div class="column" style="width:33.33%;">
                                 <ul>
                                     <li><!-- Vietnam menu & submenus -->
-                                        <a id="vietnam" title="POW & MIA soliders from the Vietnam conflict" onclick="_loader(this.id); _title(this.title);" onmouseover="_spoof(this);">
+                                        <a id="vietnam" title="POW & MIA soliders from the Vietnam conflict" onclick="_loader(['vietnam']); _title(this.title);" onmouseover="_spoof(this);">
                                             <span><img src="images/medals/200px-Vietnam_Service_Ribbon.svg.png" alt="Vietnam war" height="16"/>Vietnam war</span>
                                         </a>
                                         <div class="submenu">
@@ -340,8 +340,9 @@
                                             </div>
                                         </div>
                                     </li>
-                                    <li><!-- Cold war menu & submenus -->
-                                        <a id="cold-war" title="POW & MIA soliders from the cold war" onclick="_loader(this.id); _title(this.title);" onmouseover="_spoof(this);">
+                                    <!-- Cold war menu & submenus
+                                    <li>
+                                        <a id="cold-war" title="POW & MIA soliders from the cold war" onclick="_loader(['cold-war']); _title(this.title);" onmouseover="_spoof(this);">
                                             <span><img src="images/medals/" alt="Cold war" height="16"/>Cold war</span>
                                         </a>
                                         <div class="submenu">
@@ -369,9 +370,39 @@
                                             </div>
                                         </div>
                                     </li>
+                                    -->
                                     <li><!-- Desert storm & submenus -->
-                                        <a id="desert-storm" title="POW & MIA soliders from the desert storm conflict" onclick="_loader(this.id); _title(this.title)" onmouseover="_spoof(this);">
+                                        <a id="desert-storm" title="POW & MIA soliders from the desert storm conflict" onclick="_loader(['desert-storm']); _title(this.title)" onmouseover="_spoof(this);">
                                             <span><img src="images/medals/200px-Southwest_Asia_Service_ribbon.svg.png" alt="Desert storm" height="16"/>Desert storm</span>
+                                        </a>
+                                        <div class="submenu">
+                                            <div class="column">
+                                                <ul>
+                                                    <li>
+                                                        <a title="US Marines">
+                                                            <span><img src="images/branches/200px-USMC_logo.svg.png" alt="US Marine Corp" height="20"/>US Marines</span>
+                                                        </a>
+                                                    </li>
+                                                        <a title="US Navy">
+                                                            <span><img src="images/branches/200px-US-DeptOfNavy-Seal.svg.png" alt="US Navy" height="20"/>US Navy</span>
+                                                        </a>
+                                                    <li>
+                                                        <a title="US Air Force">
+                                                            <span><img src="images/branches/200px-Seal_of_the_US_Air_Force.svg.png" alt="US Air Force" height="20"/>US Air Force</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a title="US Army">
+                                                            <span><img src="images/branches/200px-United_States_Department_of_the_Army_Seal.svg.png" alt="US Army" height="20"/>US Army</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li><!-- Iraqi freedom menu & submenus -->
+                                        <a id="iraqi-freedom" title="POW & MIA soliders from the Iraqi freedom conflict" onclick="_loader(['iraqi-freedom']); _title(this.title)" onmouseover="_spoof(this);">
+                                            <span><img src="images/medals/200px-Iraq_Campaign_ribbon.svg.png" alt="Iraqi freedom" height="16"/>Iraqi freedom</span>
                                         </a>
                                         <div class="submenu">
                                             <div class="column">
@@ -402,37 +433,8 @@
                             </div>
                             <div class="column" style="width:33.33%;">
                                 <ul>
-                                    <li><!-- Iraqi freedom menu & submenus -->
-                                        <a id="iraqi-freedom" title="POW & MIA soliders from the Iraqi freedom conflict" onclick="_loader(this.id); _title(this.title)" onmouseover="_spoof(this);">
-                                            <span><img src="images/medals/200px-Iraq_Campaign_ribbon.svg.png" alt="Iraqi freedom" height="16"/>Iraqi freedom</span>
-                                        </a>
-                                        <div class="submenu">
-                                            <div class="column">
-                                                <ul>
-                                                    <li>
-                                                        <a title="US Marines">
-                                                            <span><img src="images/branches/200px-USMC_logo.svg.png" alt="US Marine Corp" height="20"/>US Marines</span>
-                                                        </a>
-                                                    </li>
-                                                        <a title="US Navy">
-                                                            <span><img src="images/branches/200px-US-DeptOfNavy-Seal.svg.png" alt="US Navy" height="20"/>US Navy</span>
-                                                        </a>
-                                                    <li>
-                                                        <a title="US Air Force">
-                                                            <span><img src="images/branches/200px-Seal_of_the_US_Air_Force.svg.png" alt="US Air Force" height="20"/>US Air Force</span>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a title="US Army">
-                                                            <span><img src="images/branches/200px-United_States_Department_of_the_Army_Seal.svg.png" alt="US Army" height="20"/>US Army</span>
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </li>
                                     <li><!-- Afghanistan service menu & submenus -->
-                                        <a id="afghanistan-service" title="POW & MIA soliders from the Afghanistan conflict" onclick="_loader(this.id); _title(this.title)" onmouseover="_spoof(this);">
+                                        <a id="afghanistan-service" title="POW & MIA soliders from the Afghanistan conflict" onclick="_loader(['afghanistan']); _title(this.title)" onmouseover="_spoof(this);">
                                             <span><img src="images/medals/200px-Afghanistan_Campaign_ribbon.svg.png" alt="Afghanistan Service" height="16"/>Afghanistan Service</span>
                                         </a>
                                         <div class="submenu">
@@ -465,7 +467,7 @@
                         </div>
                     </li>
                     <li class="toproot">
-                        <a onmouseover="_spoof(this)" title="Additional resources">
+                        <a onmouseover="_spoof(this);" title="Additional resources">
                             <span><img src="images/133.png" alt="Additional resources"/>Resources</span>
                         </a>
                         <div class="submenu" style="width: 537px;">

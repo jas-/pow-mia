@@ -2,18 +2,43 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
    <Document>
 		<name>Korea POW-MIA</name>
-		<description>Description</description>
+		<description>Country overlay, location markers and information of korean war</description>
 
-		<Style id="style-1">
+		<!-- Style for coordinate fill(s) -->
+		<Style id="style">
 			<LineStyle>
 			   <color>50FFFFFF</color>
 			   <width>1</width>
 			</LineStyle>
 			<PolyStyle>
-			   <color>50DCDCDC</color>
+			   <color>501400E6</color>
 			   <fill>1</fill>
 			   <outline>1</outline>
 			</PolyStyle>
+		 </Style>
+
+		<!-- Style map marker for S. Korean -->
+		<Style id="skorea">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>
+						../images/countries/Korea32.png
+					</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+
+		<!-- Style map marker for N. Korean -->
+		<Style id="nkorea">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>
+						../images/countries/North-Korea32.png
+					</href>
+				</Icon>
+			</IconStyle>
 		</Style>
 
 	    <Placemark id="korea">
@@ -23,7 +48,7 @@
             ]]></description>
 		 <visibility>1</visibility>
 		 <open>0</open>
-		 <styleUrl>#style-1</styleUrl>
+		 <styleUrl>#style</styleUrl>
 		 <Polygon>
 			<extrude>0</extrude>
 			<tessellate>1</tessellate>
@@ -121,40 +146,70 @@
 		 </Polygon>
 		</Placemark>
 
-        <Placemark>
-            <name><![CDATA[Korea 1]]></name>
-            <description><![CDATA[
-              1
-            ]]></description>
-            <Point>
-                <extrude>1</extrude>
-		        <altitudeMode>relativeToGround</altitudeMode>
-                <coordinates>126.2770975,39.4701220,0</coordinates>
-            </Point>
-        </Placemark>
+	  <!-- Marker & description information per country overlay -->
+		<Folder>
+			<name>Waypoints</name>
 
-        <Placemark>
-            <name><![CDATA[Korea 2]]></name>
-            <description><![CDATA[
-              2
-            ]]></description>
-            <Point>
-                <extrude>1</extrude>
-		        <altitudeMode>relativeToGround</altitudeMode>
-                <coordinates>128.2770875,35.4701320,0</coordinates>
-            </Point>
-        </Placemark>
+			<!-- Place mark and information regarding South Korean -->
+			<Placemark>
+				<name><![CDATA[South Korea]]></name>
+				<styleUrl>#skorea</styleUrl>
+				<description><![CDATA[
+				<table>
+					<tr>
+						<td><img src="images/countries/flags/South_Korea.png" width="50"/></td>
+						<td><b>Korean war</b></td>
+					</tr>
+					<tr>
+						<td valign="top"><i>Role:</i></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td valign="top"><i>POW:</i></td>
+						<td>Unknown</td>
+					</tr>
+					<tr>
+						<td valign="top"><i>MIA:</i></td>
+						<td>Unknown</td>
+					</tr>
+				</table>
+				]]></description>
+				<Point>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>128.0126953,36.5978891,0</coordinates>
+				</Point>
+			</Placemark>
 
-        <Placemark>
-            <name><![CDATA[Korea 3]]></name>
-            <description><![CDATA[
-              3
-            ]]></description>
-            <Point>
-                <extrude>1</extrude>
-		        <altitudeMode>relativeToGround</altitudeMode>
-                <coordinates>127.2771075,36.4701420,0</coordinates>
-            </Point>
-        </Placemark>
+			<!-- Place mark and information regarding North Korea -->
+			<Placemark>
+				<name><![CDATA[North Korea]]></name>
+				<styleUrl>#nkorea</styleUrl>
+				<description><![CDATA[
+				<table>
+					<tr>
+						<td><img src="images/countries/flags/North_Korea.png" width="50"/></td>
+						<td><b>Korean war</b></td>
+					</tr>
+					<tr>
+						<td valign="top"><i>Role:</i></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td valign="top"><i>POW:</i></td>
+						<td>Unknown</td>
+					</tr>
+					<tr>
+						<td valign="top"><i>MIA:</i></td>
+						<td>Unknown</td>
+					</tr>
+				</table>
+				]]></description>
+				<Point>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>126.6943359,39.7747695,0</coordinates>
+				</Point>
+			</Placemark>
+
+		</Folder>
    </Document>
 </kml>

@@ -35,7 +35,7 @@ function _loader(file) {
 
             /* bind click events & information dialogs to any markers within the kml data file */
             google.maps.event.addListener(data, 'click', function(kmlEvent) {
-                _modal(kmlEvent.featureData.description);
+                /*_modal(kmlEvent.featureData.description);*/
             });
         }
     }
