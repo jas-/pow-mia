@@ -82,8 +82,4 @@
             <href>http://dev.in-my-cloud.com/pow-mia/images/countries/Denmark32.png</href>
         </Icon>
     </IconStyle>
-    <BalloonStyle>
-        <text>&lt;h1&gt;$[name]&lt;/h1&gt;$[description]</text>
-        <bgColor>ffd5efff</bgColor>
-    </BalloonStyle>
 </Style>
