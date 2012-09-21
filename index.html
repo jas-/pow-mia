@@ -23,6 +23,8 @@
     <body onload="initialize()">
         <!-- header -->
         <div id="header">
+
+            <!-- logo area -->
             <div id="pow-mia-logo">
                 <a href="index.html"><img src="images/pow-mia-175x234.png" border="0" title="POW MIA - You are not forgotten" alt="POW MIA - You are not forgotten" /></a>
             </div>
@@ -514,7 +516,16 @@
                     </li>
                 </ul>
             </div>
+
+            <!-- search box area -->
+            <div id="search">
+                    <form id="search" name="search" method="post" action="">
+                        <label for="search">Search:</label>
+                        <input type="text" id="search" name="search" value="" placeholder="POW/MIA by service branch, name or conflict" required="required" />
+                    </form>
+            </div>
         </div>
+
         <div id="map"></div>
         <div id="footer">
             <ul>
