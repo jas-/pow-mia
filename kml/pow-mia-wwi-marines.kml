@@ -21,14 +21,14 @@
 		</Style>
 
 		<!-- Marker for US Marine Corp @  -->
-		<Placemark id="wwi-us-marine-corp">
-			<name><![CDATA[WWI - US Marine Corp]]></name>
+		<Placemark id="wwi-us-marine-corp-belleau">
+			<name><![CDATA[WWI - US Marine Corps Belleau, France]]></name>
 				<styleUrl>#marine-corp</styleUrl>
 				<description><![CDATA[
 				<table>
 					<tr>
 						<td><img src="images/branches/200px-USMC_log.svg.png" width="50"/></td>
-						<td><b>WWI - US Marine Corp</b></td>
+						<td><b>WWI - US Marine Corp at Belleau, France</b></td>
 					</tr>
 					<tr>
 						<td valign="top"><i>Date(s):</i></td>
@@ -54,7 +54,7 @@
 			<Point>
 				<altitudeMode>clampedToGround</altitudeMode>
 				<coordinates>
-					
+					0.2803230,49.0138924,0
 				</coordinates>
 			</Point>
 		</Placemark>
