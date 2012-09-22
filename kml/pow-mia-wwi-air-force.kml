@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Jason Gerfen <jason.gerfen@gmail.com> -->
+<!-- Overlay coordinates WWI Army Divisions -->
+
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<name>WWI POW-MIA Air Force Divisions</name>
+		<description>Air Force Divisions overlay of occupied countries WWI</description>
+
+		<!-- Style for map markers (US Army) -->
+		<Style id="air-force">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>
+						../images/branches/200px-Seal_of_the_US_Air_Force.svg.png
+					</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+
+		<!-- Marker for US Air Force @  -->
+		<Placemark id="wwi-us-air-force">
+			<name><![CDATA[WWI - US Air Force]]></name>
+				<styleUrl>#air-force</styleUrl>
+				<description><![CDATA[
+				<table>
+					<tr>
+						<td><img src="images/branches/200px-Seal_of_the_US_Air_Force.svg.png" width="50"/></td>
+						<td><b>WWI - US Air Force</b></td>
+					</tr>
+					<tr>
+						<td valign="top"><i>Date(s):</i></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td valign="top"><i>POW:</i></td>
+						<td>Unknown</td>
+					</tr>
+					<tr>
+						<td valign="top"><i>MIA:</i></td>
+						<td>Unknown</td>
+					</tr>
+					<tr>
+						<td colspan="2"></td>
+					</tr>	
+					<tr>
+						<td valign="top"><i>Source(s):</i></td>
+						<td><a href="" target="_blank">#</a></td>
+					</tr>
+				</table>
+				]]></description>
+			<Point>
+				<altitudeMode>clampedToGround</altitudeMode>
+				<coordinates>
+					
+				</coordinates>
+			</Point>
+		</Placemark>
+
+   </Document>
+</kml>
