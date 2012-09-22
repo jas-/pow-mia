@@ -20,15 +20,15 @@
 			</IconStyle>
 		</Style>
 
-		<!-- Marker for US Navy @  -->
-		<Placemark id="wwi-us-navy">
-			<name><![CDATA[WWI - US Navy]]></name>
+		<!-- Marker for US Navy @ Rosyth, UK -->
+		<Placemark id="wwi-us-navy-rosyth">
+			<name><![CDATA[WWI - US Navy @ Rosyth, UK]]></name>
 				<styleUrl>#navy</styleUrl>
 				<description><![CDATA[
 				<table>
 					<tr>
 						<td><img src="images/branches/200px-US-DeptOfNavy-Seal.svg.png" width="50"/></td>
-						<td><b>WWI - US Navy</b></td>
+						<td><b>WWI - US Navy at Rosyth, UK</b></td>
 					</tr>
 					<tr>
 						<td valign="top"><i>Date(s):</i></td>
@@ -54,7 +54,241 @@
 			<Point>
 				<altitudeMode>clampedToGround</altitudeMode>
 				<coordinates>
-					
+					-3.3975220,56.0352258,0
+				</coordinates>
+			</Point>
+		</Placemark>
+
+		<!-- Marker for US Navy @ Scapa flow, UK -->
+		<Placemark id="wwi-us-navy-scapa-flow">
+			<name><![CDATA[WWI - US Navy @ Scapa flow, UK]]></name>
+				<styleUrl>#navy</styleUrl>
+				<description><![CDATA[
+				<table>
+					<tr>
+						<td><img src="images/branches/200px-US-DeptOfNavy-Seal.svg.png" width="50"/></td>
+						<td><b>WWI - US Navy at Scapa flow, UK</b></td>
+					</tr>
+					<tr>
+						<td valign="top"><i>Date(s):</i></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td valign="top"><i>POW:</i></td>
+						<td>Unknown</td>
+					</tr>
+					<tr>
+						<td valign="top"><i>MIA:</i></td>
+						<td>Unknown</td>
+					</tr>
+					<tr>
+						<td colspan="2"></td>
+					</tr>	
+					<tr>
+						<td valign="top"><i>Source(s):</i></td>
+						<td><a href="" target="_blank">#</a></td>
+					</tr>
+				</table>
+				]]></description>
+			<Point>
+				<altitudeMode>clampedToGround</altitudeMode>
+				<coordinates>
+					-3.0500000,58.9000000,0
+				</coordinates>
+			</Point>
+		</Placemark>
+
+		<!-- Marker for US Navy @ Cardiff, UK -->
+		<Placemark id="wwi-us-navy-cardiff">
+			<name><![CDATA[WWI - US Navy @ Cardiff, UK]]></name>
+				<styleUrl>#navy</styleUrl>
+				<description><![CDATA[
+				<table>
+					<tr>
+						<td><img src="images/branches/200px-US-DeptOfNavy-Seal.svg.png" width="50"/></td>
+						<td><b>WWI - US Navy at Cardiff, UK</b></td>
+					</tr>
+					<tr>
+						<td valign="top"><i>Date(s):</i></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td valign="top"><i>POW:</i></td>
+						<td>Unknown</td>
+					</tr>
+					<tr>
+						<td valign="top"><i>MIA:</i></td>
+						<td>Unknown</td>
+					</tr>
+					<tr>
+						<td colspan="2"></td>
+					</tr>	
+					<tr>
+						<td valign="top"><i>Source(s):</i></td>
+						<td><a href="" target="_blank">#</a></td>
+					</tr>
+				</table>
+				]]></description>
+			<Point>
+				<altitudeMode>clampedToGround</altitudeMode>
+				<coordinates>
+					-3.1496429,51.4505838,0
+				</coordinates>
+			</Point>
+		</Placemark>
+
+		<!-- Marker for US Navy @ Berehaven, UK -->
+		<Placemark id="wwi-us-navy-berehaven">
+			<name><![CDATA[WWI - US Navy @ Berehaven, UK]]></name>
+				<styleUrl>#navy</styleUrl>
+				<description><![CDATA[
+				<table>
+					<tr>
+						<td><img src="images/branches/200px-US-DeptOfNavy-Seal.svg.png" width="50"/></td>
+						<td><b>WWI - US Navy at Berehaven, UK</b></td>
+					</tr>
+					<tr>
+						<td valign="top"><i>Date(s):</i></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td valign="top"><i>POW:</i></td>
+						<td>Unknown</td>
+					</tr>
+					<tr>
+						<td valign="top"><i>MIA:</i></td>
+						<td>Unknown</td>
+					</tr>
+					<tr>
+						<td colspan="2"></td>
+					</tr>	
+					<tr>
+						<td valign="top"><i>Source(s):</i></td>
+						<td><a href="" target="_blank">#</a></td>
+					</tr>
+				</table>
+				]]></description>
+			<Point>
+				<altitudeMode>clampedToGround</altitudeMode>
+				<coordinates>
+					-9.9041748,51.6448680,0
+				</coordinates>
+			</Point>
+		</Placemark>
+
+		<!-- Marker for US Navy @ Portland, UK -->
+		<Placemark id="wwi-us-navy-portland">
+			<name><![CDATA[WWI - US Navy @ Portland, UK]]></name>
+				<styleUrl>#navy</styleUrl>
+				<description><![CDATA[
+				<table>
+					<tr>
+						<td><img src="images/branches/200px-US-DeptOfNavy-Seal.svg.png" width="50"/></td>
+						<td><b>WWI - US Navy at Portland, UK</b></td>
+					</tr>
+					<tr>
+						<td valign="top"><i>Date(s):</i></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td valign="top"><i>POW:</i></td>
+						<td>Unknown</td>
+					</tr>
+					<tr>
+						<td valign="top"><i>MIA:</i></td>
+						<td>Unknown</td>
+					</tr>
+					<tr>
+						<td colspan="2"></td>
+					</tr>	
+					<tr>
+						<td valign="top"><i>Source(s):</i></td>
+						<td><a href="" target="_blank">#</a></td>
+					</tr>
+				</table>
+				]]></description>
+			<Point>
+				<altitudeMode>clampedToGround</altitudeMode>
+				<coordinates>
+					-122.6829529,45.5227061,0
+				</coordinates>
+			</Point>
+		</Placemark>
+
+		<!-- Marker for US Navy @ Brest, UK -->
+		<Placemark id="wwi-us-navy-brest">
+			<name><![CDATA[WWI - US Navy @ Brest, UK]]></name>
+				<styleUrl>#navy</styleUrl>
+				<description><![CDATA[
+				<table>
+					<tr>
+						<td><img src="images/branches/200px-US-DeptOfNavy-Seal.svg.png" width="50"/></td>
+						<td><b>WWI - US Navy at Brest, UK</b></td>
+					</tr>
+					<tr>
+						<td valign="top"><i>Date(s):</i></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td valign="top"><i>POW:</i></td>
+						<td>Unknown</td>
+					</tr>
+					<tr>
+						<td valign="top"><i>MIA:</i></td>
+						<td>Unknown</td>
+					</tr>
+					<tr>
+						<td colspan="2"></td>
+					</tr>	
+					<tr>
+						<td valign="top"><i>Source(s):</i></td>
+						<td><a href="" target="_blank">#</a></td>
+					</tr>
+				</table>
+				]]></description>
+			<Point>
+				<altitudeMode>clampedToGround</altitudeMode>
+				<coordinates>
+					-4.4837952,48.3945616,0
+				</coordinates>
+			</Point>
+		</Placemark>
+
+		<!-- Marker for US Navy @ St. Nazziere, France -->
+		<Placemark id="wwi-us-navy-st-nazziere">
+			<name><![CDATA[WWI - US Navy @ St. Nazziere, France]]></name>
+				<styleUrl>#navy</styleUrl>
+				<description><![CDATA[
+				<table>
+					<tr>
+						<td><img src="images/branches/200px-US-DeptOfNavy-Seal.svg.png" width="50"/></td>
+						<td><b>WWI - US Navy at St. Nazziere, France</b></td>
+					</tr>
+					<tr>
+						<td valign="top"><i>Date(s):</i></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td valign="top"><i>POW:</i></td>
+						<td>Unknown</td>
+					</tr>
+					<tr>
+						<td valign="top"><i>MIA:</i></td>
+						<td>Unknown</td>
+					</tr>
+					<tr>
+						<td colspan="2"></td>
+					</tr>	
+					<tr>
+						<td valign="top"><i>Source(s):</i></td>
+						<td><a href="" target="_blank">#</a></td>
+					</tr>
+				</table>
+				]]></description>
+			<Point>
+				<altitudeMode>clampedToGround</altitudeMode>
+				<coordinates>
+					-2.2137451,47.2820240,0
 				</coordinates>
 			</Point>
 		</Placemark>
