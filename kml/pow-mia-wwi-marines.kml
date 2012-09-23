@@ -20,7 +20,7 @@
 			</IconStyle>
 		</Style>
 
-		<!-- Marker for US Marine Corp @  -->
+		<!-- Marker for US Marine Corp @ Belleau, France -->
 		<Placemark id="wwi-us-marine-corp-belleau">
 			<name><![CDATA[WWI - US Marine Corps Belleau, France]]></name>
 				<styleUrl>#marine-corp</styleUrl>
@@ -55,6 +55,279 @@
 				<altitudeMode>clampedToGround</altitudeMode>
 				<coordinates>
 					0.2803230,49.0138924,0
+				</coordinates>
+			</Point>
+		</Placemark>
+
+		<!-- Marker for US Marine Corp @ Aisne, France -->
+		<Placemark id="wwi-us-marine-corp-aisne">
+			<name><![CDATA[WWI - US Marine Corps Aisne, France]]></name>
+				<styleUrl>#marine-corp</styleUrl>
+				<description><![CDATA[
+				<table>
+					<tr>
+						<td><img src="images/branches/200px-USMC_logo.svg.png" width="50"/></td>
+						<td><b>WWI - US Marine Corp at Aisne, France</b></td>
+					</tr>
+					<tr>
+						<td valign="top"><i>Date(s):</i></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td valign="top"><i>POW:</i></td>
+						<td>Unknown</td>
+					</tr>
+					<tr>
+						<td valign="top"><i>MIA:</i></td>
+						<td>Unknown</td>
+					</tr>
+					<tr>
+						<td colspan="2"></td>
+					</tr>	
+					<tr>
+						<td valign="top"><i>Source(s):</i></td>
+						<td><a href="" target="_blank">#</a></td>
+					</tr>
+				</table>
+				]]></description>
+			<Point>
+				<altitudeMode>clampedToGround</altitudeMode>
+				<coordinates>
+					3.3618164,49.5055931,0
+				</coordinates>
+			</Point>
+		</Placemark>
+
+		<!-- Marker for US Marine Corp @ St. Mihiel, France -->
+		<Placemark id="wwi-us-marine-corp-st-mihiel">
+			<name><![CDATA[WWI - US Marine Corps St. Mihiel, France]]></name>
+				<styleUrl>#marine-corp</styleUrl>
+				<description><![CDATA[
+				<table>
+					<tr>
+						<td><img src="images/branches/200px-USMC_logo.svg.png" width="50"/></td>
+						<td><b>WWI - US Marine Corp at St. Mihiel, France</b></td>
+					</tr>
+					<tr>
+						<td valign="top"><i>Date(s):</i></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td valign="top"><i>POW:</i></td>
+						<td>Unknown</td>
+					</tr>
+					<tr>
+						<td valign="top"><i>MIA:</i></td>
+						<td>Unknown</td>
+					</tr>
+					<tr>
+						<td colspan="2"></td>
+					</tr>	
+					<tr>
+						<td valign="top"><i>Source(s):</i></td>
+						<td><a href="" target="_blank">#</a></td>
+					</tr>
+				</table>
+				]]></description>
+			<Point>
+				<altitudeMode>clampedToGround</altitudeMode>
+				<coordinates>
+					5.5460358,48.8999351,0
+				</coordinates>
+			</Point>
+		</Placemark>
+
+		<!-- Marker for US Marine Corp @ Meuse Argonne, France -->
+		<Placemark id="wwi-us-marine-corp-meuse-argonne">
+			<name><![CDATA[WWI - US Marine Corps Meuse-Argonne, France]]></name>
+				<styleUrl>#marine-corp</styleUrl>
+				<description><![CDATA[
+				<table>
+					<tr>
+						<td><img src="images/branches/200px-USMC_logo.svg.png" width="50"/></td>
+						<td><b>WWI - US Marine Corp at Meuse-Argonne, France</b></td>
+					</tr>
+					<tr>
+						<td valign="top"><i>Date(s):</i></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td valign="top"><i>POW:</i></td>
+						<td>Unknown</td>
+					</tr>
+					<tr>
+						<td valign="top"><i>MIA:</i></td>
+						<td>Unknown</td>
+					</tr>
+					<tr>
+						<td colspan="2"></td>
+					</tr>	
+					<tr>
+						<td valign="top"><i>Source(s):</i></td>
+						<td><a href="" target="_blank">#</a></td>
+					</tr>
+				</table>
+				]]></description>
+			<Point>
+				<altitudeMode>clampedToGround</altitudeMode>
+				<coordinates>
+					5.0695038,49.1129841,0
+				</coordinates>
+			</Point>
+		</Placemark>
+
+		<!-- Marker for US Marine Corp @ Toulon-Troyon, France -->
+		<Placemark id="wwi-us-marine-corp-toulon-troyon">
+			<name><![CDATA[WWI - US Marine Corps Toulon-Troyon, France]]></name>
+				<styleUrl>#marine-corp</styleUrl>
+				<description><![CDATA[
+				<table>
+					<tr>
+						<td><img src="images/branches/200px-USMC_logo.svg.png" width="50"/></td>
+						<td><b>WWI - US Marine Corp at Toulon-Troyon, France</b></td>
+					</tr>
+					<tr>
+						<td valign="top"><i>Date(s):</i></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td valign="top"><i>POW:</i></td>
+						<td>Unknown</td>
+					</tr>
+					<tr>
+						<td valign="top"><i>MIA:</i></td>
+						<td>Unknown</td>
+					</tr>
+					<tr>
+						<td colspan="2"></td>
+					</tr>	
+					<tr>
+						<td valign="top"><i>Source(s):</i></td>
+						<td><a href="" target="_blank">#</a></td>
+					</tr>
+				</table>
+				]]></description>
+			<Point>
+				<altitudeMode>clampedToGround</altitudeMode>
+				<coordinates>
+					5.9271240,43.1365687,0
+				</coordinates>
+			</Point>
+		</Placemark>
+
+		<!-- Marker for US Marine Corp @ Château-Thierry, France -->
+		<Placemark id="wwi-us-marine-corp-château-thierry">
+			<name><![CDATA[WWI - US Marine Corps Château-Thierry, France]]></name>
+				<styleUrl>#marine-corp</styleUrl>
+				<description><![CDATA[
+				<table>
+					<tr>
+						<td><img src="images/branches/200px-USMC_logo.svg.png" width="50"/></td>
+						<td><b>WWI - US Marine Corp at Château-Thierry, France</b></td>
+					</tr>
+					<tr>
+						<td valign="top"><i>Date(s):</i></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td valign="top"><i>POW:</i></td>
+						<td>Unknown</td>
+					</tr>
+					<tr>
+						<td valign="top"><i>MIA:</i></td>
+						<td>Unknown</td>
+					</tr>
+					<tr>
+						<td colspan="2"></td>
+					</tr>	
+					<tr>
+						<td valign="top"><i>Source(s):</i></td>
+						<td><a href="" target="_blank">#</a></td>
+					</tr>
+				</table>
+				]]></description>
+			<Point>
+				<altitudeMode>clampedToGround</altitudeMode>
+				<coordinates>
+					3.4037018,49.0594698,0
+				</coordinates>
+			</Point>
+		</Placemark>
+
+		<!-- Marker for US Marine Corp @ Marbache, France -->
+		<Placemark id="wwi-us-marine-corp-marbache">
+			<name><![CDATA[WWI - US Marine Corps Marbache, France]]></name>
+				<styleUrl>#marine-corp</styleUrl>
+				<description><![CDATA[
+				<table>
+					<tr>
+						<td><img src="images/branches/200px-USMC_logo.svg.png" width="50"/></td>
+						<td><b>WWI - US Marine Corp at Marbache, France</b></td>
+					</tr>
+					<tr>
+						<td valign="top"><i>Date(s):</i></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td valign="top"><i>POW:</i></td>
+						<td>Unknown</td>
+					</tr>
+					<tr>
+						<td valign="top"><i>MIA:</i></td>
+						<td>Unknown</td>
+					</tr>
+					<tr>
+						<td colspan="2"></td>
+					</tr>	
+					<tr>
+						<td valign="top"><i>Source(s):</i></td>
+						<td><a href="" target="_blank">#</a></td>
+					</tr>
+				</table>
+				]]></description>
+			<Point>
+				<altitudeMode>clampedToGround</altitudeMode>
+				<coordinates>
+					6.1022186,48.8086723,0
+				</coordinates>
+			</Point>
+		</Placemark>
+
+		<!-- Marker for US Marine Corp @ Limey, France -->
+		<Placemark id="wwi-us-marine-corp-limey">
+			<name><![CDATA[WWI - US Marine Corps Limey, France]]></name>
+				<styleUrl>#marine-corp</styleUrl>
+				<description><![CDATA[
+				<table>
+					<tr>
+						<td><img src="images/branches/200px-USMC_logo.svg.png" width="50"/></td>
+						<td><b>WWI - US Marine Corp at Limey, France</b></td>
+					</tr>
+					<tr>
+						<td valign="top"><i>Date(s):</i></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td valign="top"><i>POW:</i></td>
+						<td>Unknown</td>
+					</tr>
+					<tr>
+						<td valign="top"><i>MIA:</i></td>
+						<td>Unknown</td>
+					</tr>
+					<tr>
+						<td colspan="2"></td>
+					</tr>	
+					<tr>
+						<td valign="top"><i>Source(s):</i></td>
+						<td><a href="" target="_blank">#</a></td>
+					</tr>
+				</table>
+				]]></description>
+			<Point>
+				<altitudeMode>clampedToGround</altitudeMode>
+				<coordinates>
+					5.9319305,48.8877463,0
 				</coordinates>
 			</Point>
 		</Placemark>
